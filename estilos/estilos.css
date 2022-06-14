@@ -608,6 +608,28 @@ p{
 
 
 
+.botonAnimacion{
+    background-color: rgb(136, 8, 8);
+    color: aliceblue;
+    font-size: 150%;
+    font-family: 'Lato', sans-serif;
+
+    position: relative;
+    top: 0px;
+    left: 20px;
+
+    width: 60px;
+    height: 30px;
+    transition: none;
+}
+
+.botonAnimacion:hover{
+    transform: scale(120.5%);
+}
+
+
+
+
 
 
 .linkFooter{
