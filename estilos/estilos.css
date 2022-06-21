@@ -184,10 +184,6 @@ body{
 
 
 
-
-
-
-
 .grillaMenu {
    
     height: 124px;
@@ -450,9 +446,6 @@ body{
 
 
 
-
-
-
 .botonesServicios{
   
     position: relative;
@@ -461,8 +454,6 @@ body{
     
 
 }
-
-
 
 
 
@@ -602,19 +593,11 @@ body{
 
 
 
-
 main{
     background-color: rgb(100, 105, 105);
     /*ESTO AUN EXISTE EN EL INICIO*/
     padding: 0px 0px 20px 0px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -713,9 +696,6 @@ p{
     
 
 }
-
-
-
 
 
 
@@ -934,7 +914,6 @@ body{
 
 
 
-
 .grillaServicios1{
     z-index: -1;
     display: grid;
@@ -949,7 +928,6 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
-
 
 
 
@@ -980,8 +958,6 @@ body{
 
 
 
-
-
 .grillaContacto{
     z-index: -1;
     display: grid;
@@ -1001,9 +977,6 @@ body{
 
 
 
-
-
-
 .grillaHistoria{
     z-index: -1;
     display: grid;
@@ -1018,7 +991,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
 
 
 
@@ -1045,7 +1017,6 @@ body{
 
 
 
-
 .grillaParteFinal{
     display: grid;
     grid-template-areas:
@@ -1061,19 +1032,11 @@ body{
 
 
 
-
-
 main{
     background-color: rgb(100, 105, 105);
     /*ESTO AUN EXISTE EN EL INICIO*/
     padding: 0px 0px 20px 0px;
 }
-
-
-
-
-
-
 
 
 
@@ -1210,8 +1173,6 @@ img{
     
      
 
-     
-
 
      .posicionmenu{
         display: flex;
@@ -1268,9 +1229,6 @@ img{
     
 
    
-    
-
-
 
     
     
@@ -1406,12 +1364,6 @@ img{
 
     
     
-    
-    
-    
-
-    
- 
     
     
     img{
