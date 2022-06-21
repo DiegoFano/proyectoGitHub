@@ -3,7 +3,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@700&family=Open+Sans:wdth,wght@75,700&display=swap');
 
-/*mobile-smartphone*/
+/*1-mobile-smartphone*/
 
 @media(min-width: 0px){
 
@@ -19,7 +19,15 @@ html{
 }
 
 
+body{
+    text-align: center;
+    font-weight: bolder;
+    display: flex; /*ver esto, junto con el column si al final estan bien*/ /*quite de aqui el text align center*/
+    flex-direction: column;
+    min-height: 100vh;
 
+
+}
 
 
 #pag1 {
@@ -180,71 +188,112 @@ html{
 
 
 .grillaMenu {
+   
+    height: 124px;
+    
+ }
+
+ .colormenu{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+
+
+ }
+
+ .logo{
+    width: 120px;
+    position: relative;
+    left: 0px;
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+
+ }
+
+ .letraslogo{
+    text-align: left;
+    font-size: 130%;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(214, 214, 209);
+    font-weight: bolder;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    position: relative;
+    left: 0px;
+    top: 30px;
+ }
+
+ .columnaslogo{
+    column-count: 2;
+ }
+
+ .letrasmenu{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: rgb(76, 150, 150);
+    font-size: 180%;
+    margin: 0px 10px 0px 10px;
+
+ }
+
+
+ .posicionmenu{
+    display: flex;
+    justify-content: center;
+ }
+
+ .colorhamburguesa{
+    background-color: rgb(76, 150, 150);
+    width: 40px;
+    height: 40px;
+ }
+
+ 
+ .carousel{
+    z-index: 10;
+ }
+ .navbar-nav{
+    z-index: 20;
+ }
+ .posicionmenu{
+    z-index: 15;
+
+ }
+
+
+
+
+
+ .grillaIndex{
+    
+    z-index: -1;
+    background-image: url('../img/planchado-y-pintura4.jpg');
+
+    background-color: rgb(100, 105, 105);
     display: grid;
     grid-template-areas:
-      "grillaMenu1 grillaMenu2";
-    height: 124px;
+      "grillaIndex1 grillaIndex2";
+
+    height: 750px;
     grid-template-rows: 1fr; 
-    grid-template-columns: 3fr 7fr;
- }
+    grid-template-columns: 1fr 1fr;
+    
+    display: flex;
+    flex-direction: column;
 
 
-.grillaMenu1 {
-    background-color: rgb(0, 0, 0);
-    grid-area: grillaMenu1;
- }
-
-.grillaMenu2 {
-    background-color: rgb(0, 0, 0);
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-area: grillaMenu2;
- }
-
-
-
-
-
-
-
- .imagenLogoGrids{
-    width: 100px;
-    min-width: none;
-    height: 100px;
-    padding: 0px;
-    margin: 0px;
-    position: absolute;
-    top: 8px;
-    left: 20px;
 }
 
-.nombreLogoGrids{
-    padding: 0px 0px 0px 120px;
-    font-family: 'Dancing Script', cursive;
-    font-size: 145%;
-    color: rgb(214, 214, 209);
-    position: relative;
-    top: 40px;
-    left: 20px;
-    right: 0px;
+
+.grillaIndex1{
+    grid-area: grillaIndex1;
 }
- 
 
+.grillaIndex2{
+    grid-area: grillaIndex2;
 
- .letrasMenu{
-    color: rgb(76, 150, 150);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 180%;
-    position: relative;
-    top: 20px;
-    left: 20px;
-    right: 0px;
-    padding: 0px 0px 0px 0px ;
- }
-
-
-
-
+}
 
 
 
@@ -262,19 +311,15 @@ html{
     background-color: black;
     display: grid;
     grid-template-areas:
-      "grillaFooter1 grillaFooter2"
-      "grillaFooter3 grillaFooter3";
-    height: 600px;
-    grid-template-rows: 1fr 1fr; 
+      "grillaFooter2 grillaFooter3";
+    height: 360px;
+    grid-template-rows: 1fr; 
     grid-template-columns: 1fr 1fr;
+    
 }
 
  .grillaFooter1{
-    background-color: rgb(0, 0, 0);
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-area: grillaFooter1;
+    display: none;
 
 }
 
@@ -284,6 +329,7 @@ html{
     display: grid;
     grid-template-columns: 1fr;
     grid-area: grillaFooter2;
+    
 }
 
 .grillaFooter3{
@@ -309,6 +355,7 @@ html{
 
 
 .grillaServicios1{
+    z-index: -1;
     background-color: rgb(76, 150, 150);
     display: grid;
     text-align: center;
@@ -344,6 +391,7 @@ html{
 
    
 .grillaServicios234{
+    z-index: -1;
     background-color: rgb(100, 105, 105);
     display: grid;
     grid-template-areas:
@@ -354,9 +402,10 @@ html{
       "grillaServicios41" 
       "grillaServicios42";
 
-    height: 1400px;
+    height: 1500px;
     grid-template-rows: 1fr 1fr 1fr; 
     grid-template-columns: 1fr 1fr;
+
 
     justify-content: center;
     align-items: center; 
@@ -421,17 +470,19 @@ html{
 
 
 .grillaContacto{
+    z-index: 0;
     background-color: rgb(100, 105, 105);
     display: grid;
     grid-template-areas:
       "grillaContacto1 grillaContacto2";
 
-    height: 270px;
+    height: 340px;
     grid-template-rows: 1fr; 
     grid-template-columns: 1fr 1fr;
 
     justify-content: center;
     align-items: center;
+    justify-items: center;
 }
 
 
@@ -452,13 +503,14 @@ html{
 
 
 .grillaHistoria{
+    z-index: -1;
     background-color: rgb(100, 105, 105);
     display: grid;
     grid-template-areas:
       "grillaHistoria1"
       "grillaHistoria2";
 
-    height: 550px;
+    height: 600px;
     grid-template-rows: 1fr; 
     grid-template-columns: 1fr 1fr;
     padding: 20px 0px 20px 0px;
@@ -487,13 +539,14 @@ html{
 
 
 .grillaExperiencias{
+    z-index: -1;
     background-color: rgb(100, 105, 105);
     display: grid;
     grid-template-areas:
       "grillaExperiencias1"
       "grillaExperiencias2";
 
-    height: 450px;
+    height: 625px;
     grid-template-rows: 1fr; 
     grid-template-columns: 1fr 1fr;
     padding: 20px 0px 20px 0px;
@@ -557,10 +610,17 @@ main{
 
 
 
-.grillaIndex{
-    background-image: url('../img/planchado-y-pintura4.jpg');
-    grid-area: grillaIndex;
-}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -584,6 +644,15 @@ h3{
     color: rgb(76, 150, 150);
     padding: 10px 20px 10px 20px;
 }
+
+
+h5{
+    font-family: 'Lato', sans-serif;
+    font-size: 200%;
+    color: aliceblue;
+    padding: 10px 20px 10px 20px;
+}
+
 
 p{
     font-family: 'Lato', sans-serif;
@@ -631,7 +700,6 @@ p{
 
 
 
-
 .linkFooter{
     position: relative;
     left: 20px;
@@ -650,22 +718,7 @@ p{
 
 
 
-a{
-    position: relative;
-    left: 350px;
-    bottom: 40px;
-    text-decoration: none;
-    color: rgb(76, 150, 150);
-}
 
-ul{
-    list-style: none;
-}
-
-nav ul li{
-    display: inline-block;
-    padding: 0px 30px 0px 30px
-}
 
 
 img{
@@ -673,11 +726,7 @@ img{
     border: 5px solid black;
 }
 
-.imgIndex{
-    width: 380px;
-    min-width: none;
-    height: 300px;
-}
+
 
 .imagenServicios1{
     width: 450px;
@@ -698,7 +747,7 @@ img{
 }
 
 .imagenExperiencias{
-    width: 300px;
+    width: 400px;
     min-width: none;
 }
 
@@ -721,13 +770,355 @@ form{
     padding: 0px 0px 0px 0px;
 
 }
-}
+
 
 .tamañoMapa{
     width: 600px;
 }
 
-/*mobile-tablet/
+
+/*enlaces no visitados*/
+a:link{
+    color: rgb(255, 255, 255);
+}
+/*enlaces visitDOS*/
+a:visited{
+    color: rgb(100, 105, 105);
+}
+/*enlaces activos*/
+a:active{
+    color: rgb(76, 150, 150);
+}
+/*apoyemos el mouse sobre el enlace*/
+a:hover{
+    background: rgb(136, 8, 8);
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*2-tablet{*/
+
+@media(min-width:768px){
+    
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+    /*LETRA COMO PRIMERA VEZ*/
+}
+
+
+body{
+    text-align: left;
+    font-weight: bolder;
+    display: flex; /*ver esto, junto con el column si al final estan bien*/ /*quite de aqui el text align center*/
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+
+
+
+
+
+.grillaMenu {
+    height: 124px;  
+ }
+
+ 
+
+ .columnaslogo{
+    column-count: 2;
+ }
+
+
+
+ .posicionmenu{
+    display: flex;
+    justify-content: center;
+ }
+
+
+
+
+ 
+ .carousel{
+    z-index: 10;
+ }
+ .navbar-nav{
+    z-index: 20;
+ }
+ .posicionmenu{
+    z-index: 15;
+
+ }
+
+
+
+
+
+ .grillaIndex{
+    
+    z-index: -1;
+  
+    display: grid;
+    grid-template-areas:
+      "grillaIndex1 grillaIndex2";
+
+    height: 750px;
+    grid-template-rows: 1fr; 
+    grid-template-columns: 1fr 1fr;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+ .grillaFooter{
+    display: grid;
+    grid-template-areas:
+      "grillaFooter1 grillaFooter2 grillaFooter3";
+    height: 360px;
+    grid-template-rows: 1fr; 
+    grid-template-columns: 1fr  1fr 1fr;
+    
+}
+
+ .grillaFooter1{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-area: grillaFooter1;
+
+}
+
+.grillaFooter2{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-area: grillaFooter2;
+}
+
+.grillaFooter3{
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-area: grillaFooter3;
+
+}
+
+
+
+
+
+
+
+.grillaServicios1{
+    z-index: -1;
+    display: grid;
+    text-align: center;
+    grid-template-areas:
+      "grillaServicios11 grillaServicios12 grillaServicios13";
+
+    height: 270px;
+    grid-template-rows: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+
+   
+.grillaServicios234{
+    z-index: -1;
+    display: grid;
+    grid-template-areas:
+      "grillaServicios21 grillaServicios22"
+      "grillaServicios31 grillaServicios32"
+      "grillaServicios41 grillaServicios42";
+
+    height: 1400px;
+    grid-template-rows: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 0px 30px 0px;
+
+    justify-content: left;
+    align-items: left; 
+    text-align: center;
+     
+    
+}
+
+
+
+
+
+
+
+
+.grillaContacto{
+    z-index: -1;
+    display: grid;
+    grid-template-areas:
+      "grillaContacto1 grillaContacto2";
+
+    height: 320px;
+    grid-template-rows: 1fr; 
+    grid-template-columns: 1fr 1fr;
+
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+
+
+
+
+
+.grillaHistoria{
+    z-index: -1;
+    display: grid;
+    grid-template-areas:
+      "grillaHistoria1"
+      "grillaHistoria2";
+
+    height: 600px;
+    grid-template-rows: 1fr; 
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+.grillaExperiencias{
+    z-index: -1;
+    display: grid;
+    grid-template-areas:
+      "grillaExperiencias1"
+      "grillaExperiencias2";
+
+    height: 550px;
+    grid-template-rows: 1fr; 
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+.grillaParteFinal{
+    display: grid;
+    grid-template-areas:
+      "grillaParteFinal1";
+    height: 40px;
+    grid-template-rows: 1fr; 
+    grid-template-columns: 1fr;
+    
+
+}
+
+
+
+
+
+
+
+main{
+    background-color: rgb(100, 105, 105);
+    /*ESTO AUN EXISTE EN EL INICIO*/
+    padding: 0px 0px 20px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img{
+    margin: 20px 20px 20px 20px;
+    border: 5px solid black;
+}
+
+
+
+.imagenServicios1{
+    width: 450px;
+    min-width: none;
+}
+
+
+.imagenServicios2{
+    width: 450px;
+    min-width: none;
+}
+
+
+.imagenHistoria{
+    width: 400px;
+    min-width: none;
+    margin: 15px 20px 10px 20px;
+}
+
+.imagenExperiencias{
+    width: 400px;
+    min-width: none;
+}
+
+
+.tamañoMapa{
+    width: 750px;
+}
+
+
+
+}
 
 
 
@@ -748,7 +1139,49 @@ form{
 
 
 
-/*desktop*/
+
+
+
+
+/*PRUEBA*/
+
+@media(min-width:775px){
+    
+    .grillaIndex{
+
+        display: grid;
+        grid-template-areas:
+          "grillaIndex1 grillaIndex2";
+    
+        height: 450px;
+        grid-template-rows: 1fr; 
+        grid-template-columns: 1fr 1fr;
+        
+        display: flex;
+        flex-direction: column;
+    
+    
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*3-desktop*/
 
 @media(min-width:1024px) {
 
@@ -757,61 +1190,93 @@ form{
         font-size: 62.5%;
     }
     
+    body{
+        text-align: left;
+        font-weight: bolder;
+        display: flex; /*ver esto, junto con el column si al final estan bien*/ /*quite de aqui el text align center*/
+        flex-direction: column;
+        min-height: 100vh;
     
+    
+    }
     
     .grillaMenu {
+        height: 124px;
+        
+    
+     }
+
+    
+     
+
+     
+
+
+     .posicionmenu{
+        display: flex;
+        justify-content: end;
+     }
+
+
+
+
+     a{
+        text-decoration: none;
+        color: rgb(76, 150, 150);
+    }
+    
+    ul{
+        list-style: none;
+    }
+    nav ul li{
+        display: inline-block;
+    }
+
+
+
+
+
+    .grillaIndex{
+        z-index: 0;
+      
         display: grid;
         grid-template-areas:
-          "grillaMenu1 grillaMenu2";
-        height: 124px;
+          "grillaIndex1 grillaIndex2";
+    
+        height: 450px;
         grid-template-rows: 1fr; 
-        grid-template-columns: 3fr 7fr;
-     }
+        grid-template-columns: 1fr 1fr;
+        
+        display: flex;
+        flex-direction: column;
     
-
-
-
     
-     .letrasMenu{
-    color: rgb(76, 150, 150);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 180%;
-    position: relative;
-    top: 45px;
-    left: 70px;
-    right: 0px;
-    padding: 0px 0px 0px 0px ;
- }  
-
-
+    }
 
 
 
     
     .grillaFooter{
-        background-color: black;
         display: grid;
         grid-template-areas:
           "grillaFooter1 grillaFooter2 grillaFooter3";
-        height: 280px;
+        height: 350px;
         grid-template-rows: 1fr; 
         grid-template-columns: 1fr 1fr 1fr;
     }
     
 
+   
+    
+
+
+
     
     
-    
-    .sectionServicios{
-        padding: 20px 0px 20px 0px;
-        background-color: rgb(100, 105, 105);
-        /*SI TIENE, ES EL TITULO*/
-        text-align: center;
-    }
     
     
     .grillaServicios1{
-        background-color: rgb(76, 150, 150);
+        z-index: 0;
         display: grid;
         text-align: center;
         grid-template-areas:
@@ -827,7 +1292,6 @@ form{
     
     
     .grillaServicios234{
-        background-color: rgb(100, 105, 105);
         display: grid;
         grid-template-areas:
           "grillaServicios21 grillaServicios22"
@@ -850,29 +1314,30 @@ form{
     
     
     .grillaContacto{
-        background-color: rgb(100, 105, 105);
+        z-index: 0;
         display: grid;
         grid-template-areas:
           "grillaContacto1 grillaContacto2";
     
-        height: 270px;
+        height: 320px;
         grid-template-rows: 1fr; 
         grid-template-columns: 1fr 1fr;
     
-        justify-content: center;
-        align-items: center;
+        justify-content: left;
+        align-items: left;
+        justify-items: left;
     }
     
     
     
     
     .grillaHistoria{
-        background-color: rgb(100, 105, 105);
+        z-index: 0;
         display: grid;
         grid-template-areas:
           "grillaHistoria1 grillaHistoria2";
     
-        height: 350px;
+        height: 370px;
         grid-template-rows: 1fr; 
         grid-template-columns: 1fr 1fr;
         padding: 20px 0px 20px 0px;
@@ -887,14 +1352,17 @@ form{
         text-align: left;
     } 
 
+
+
+
     
     .grillaExperiencias{
-        background-color: rgb(100, 105, 105);
+        z-index: 0;
         display: grid;
         grid-template-areas:
           "grillaExperiencias1 grillaExperiencias2";
     
-        height: 350px;
+        height: 370px;
         grid-template-rows: 1fr; 
         grid-template-columns: 1fr 1fr;
         padding: 20px 0px 20px 0px;
@@ -939,77 +1407,10 @@ form{
     
     
     
-    h1{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 360%;
-        color: aliceblue;
-        padding: 20px 20px 10px 20px;
-    }
-    h2{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 240%;
-        color: aliceblue;
-        padding: 10px 20px 5px 20px;
-    }
     
+
     
-    h3{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 200%;
-        color: rgb(76, 150, 150);
-        padding: 10px 20px 10px 20px;
-    }
-    
-    p{
-        font-family: 'Lato', sans-serif;
-        font-size: 150%;
-        color: aliceblue;
-        padding: 5px 20px 5px 20px;
-    }
-    
-    
-    
-    
-    
-    .linkLlamar{
-        position: relative;
-        left: 20px;
-        top: 0px;
-        text-decoration: none;
-        color: aliceblue;
-        font-size: 150%;
-        font-family: 'Lato', sans-serif
-    }
-    
-    .linkFooter{
-        position: relative;
-        left: 20px;
-        top: 0px;
-        text-decoration: none;
-        color: aliceblue;
-        font-size: 150%;
-        font-family: 'Lato', sans-serif
-    }
-    
-    
-    
-    
-    a{
-        position: relative;
-        left: 350px;
-        bottom: 40px;
-        text-decoration: none;
-        color: rgb(76, 150, 150);
-    }
-    
-    ul{
-        list-style: none;
-    }
-    
-    nav ul li{
-        display: inline-block;
-        padding: 0px 30px 0px 30px
-    }
+ 
     
     
     img{
@@ -1017,11 +1418,7 @@ form{
         border: 5px solid black;
     }
     
-    .imgIndex{
-        width: 950px;
-        min-width: none;
-        height: 400px;
-    }
+    
     
     .imagenServicios1{
         width: 450px;
@@ -1047,24 +1444,7 @@ form{
     }
     
     
-    form{
-        padding: 20px 20px 0px 20px;
-        font-size: 150%;
-    }
-    
-    .formContacto{
-        color: aliceblue;
-        font-family: 'Lato', sans-serif;
-    }
-    .googleMaps{
-        background-color: rgb(49, 65, 65);
-        color: black;
-        padding: 20px 20px 20px 20px;
-    }
-    .letraGoogleMaps{
-        padding: 0px 0px 0px 0px;
-    
-    }
+   
     .tamañoMapa{
         width: 900px;
     }
