@@ -42,10 +42,12 @@ body{
  
  #pag11{
      grid-area: pag11;
+     z-index: 20;
 
  }
  #pag12{
     grid-area: pag12;
+    z-index: 10;
 }
 #pag13{
     grid-area: pag13;
@@ -72,9 +74,11 @@ body{
  
  #pag21{
      grid-area: pag21;
+     z-index: 20;
  }
  #pag22{
     grid-area: pag22;
+    z-index: 10;
 }
 #pag23{
     grid-area: pag23;
@@ -106,9 +110,11 @@ body{
  
  #pag31{
      grid-area: pag31;
+     z-index: 20;
  }
  #pag32{
     grid-area: pag32;
+    z-index: 10;
 }
 #pag33{
     grid-area: pag33;
@@ -137,9 +143,11 @@ body{
  
  #pag41{
      grid-area: pag41;
+     z-index: 20;
  }
  #pag42{
     grid-area: pag42;
+    z-index: 10;
 }
 #pag43{
     grid-area: pag43;
@@ -166,9 +174,11 @@ body{
  
  #pag51{
      grid-area: pag51;
+     z-index: 20;
  }
  #pag52{
     grid-area: pag52;
+    z-index: 10;
 }
 #pag53{
     grid-area: pag53;
@@ -246,15 +256,17 @@ body{
     height: 40px;
  }
 
- 
+
+
+
  .carousel{
-    z-index: 10;
+    
  }
  .navbar-nav{
-    z-index: 20;
+    
  }
  .posicionmenu{
-    z-index: 15;
+   
 
  }
 
@@ -264,7 +276,7 @@ body{
 
  .grillaIndex{
     
-    z-index: -1;
+    
     background-image: url('../img/planchado-y-pintura4.jpg');
 
     background-color: rgb(100, 105, 105);
@@ -352,7 +364,7 @@ body{
 
 
 .grillaServicios1{
-    z-index: -1;
+    
     background-color: rgb(76, 150, 150);
     display: grid;
     text-align: center;
@@ -388,7 +400,7 @@ body{
 
    
 .grillaServicios234{
-    z-index: -1;
+    
     background-color: rgb(100, 105, 105);
     display: grid;
     grid-template-areas:
@@ -462,7 +474,7 @@ body{
 
 
 .grillaContacto{
-    z-index: -1;
+    
     background-color: rgb(100, 105, 105);
     display: grid;
     grid-template-areas:
@@ -495,7 +507,7 @@ body{
 
 
 .grillaHistoria{
-    z-index: -1;
+    
     background-color: rgb(100, 105, 105);
     display: grid;
     grid-template-areas:
@@ -531,7 +543,7 @@ body{
 
 
 .grillaExperiencias{
-    z-index: -1;
+    
     background-color: rgb(100, 105, 105);
     display: grid;
     grid-template-areas:
@@ -856,8 +868,6 @@ body{
 
 
  .grillaIndex{
-    
-    z-index: -1;
   
     display: grid;
     grid-template-areas:
@@ -915,7 +925,7 @@ body{
 
 
 .grillaServicios1{
-    z-index: -1;
+
     display: grid;
     text-align: center;
     grid-template-areas:
@@ -934,7 +944,7 @@ body{
 
    
 .grillaServicios234{
-    z-index: -1;
+    
     display: grid;
     grid-template-areas:
       "grillaServicios21 grillaServicios22"
@@ -959,7 +969,7 @@ body{
 
 
 .grillaContacto{
-    z-index: -1;
+    
     display: grid;
     grid-template-areas:
       "grillaContacto1 grillaContacto2";
@@ -978,7 +988,7 @@ body{
 
 
 .grillaHistoria{
-    z-index: -1;
+    
     display: grid;
     grid-template-areas:
       "grillaHistoria1"
@@ -998,7 +1008,7 @@ body{
 
 
 .grillaExperiencias{
-    z-index: -1;
+   
     display: grid;
     grid-template-areas:
       "grillaExperiencias1"
@@ -1199,7 +1209,6 @@ img{
 
 
     .grillaIndex{
-        z-index: 0;
       
         display: grid;
         grid-template-areas:
@@ -1235,7 +1244,7 @@ img{
     
     
     .grillaServicios1{
-        z-index: 0;
+        
         display: grid;
         text-align: center;
         grid-template-areas:
@@ -1273,7 +1282,7 @@ img{
     
     
     .grillaContacto{
-        z-index: 0;
+        
         display: grid;
         grid-template-areas:
           "grillaContacto1 grillaContacto2";
@@ -1291,7 +1300,7 @@ img{
     
     
     .grillaHistoria{
-        z-index: 0;
+        
         display: grid;
         grid-template-areas:
           "grillaHistoria1 grillaHistoria2";
@@ -1316,7 +1325,7 @@ img{
 
     
     .grillaExperiencias{
-        z-index: 0;
+        
         display: grid;
         grid-template-areas:
           "grillaExperiencias1 grillaExperiencias2";
