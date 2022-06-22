@@ -433,7 +433,7 @@ body{
 }
 .grillaServicios22{
     grid-area: grillaServicios22;
-    scroll-margin-top: 50ex; 
+    scroll-margin-top: 150ex; 
 
 }
 .grillaServicios31{
@@ -443,7 +443,7 @@ body{
 .grillaServicios32{
 
     grid-area: grillaServicios32;
-    scroll-margin-top: 50ex; 
+    scroll-margin-top: 150ex; 
 }
 .grillaServicios41{
     grid-area: grillaServicios41;
@@ -451,7 +451,7 @@ body{
 }
 .grillaServicios42{
     grid-area: grillaServicios42;
-    scroll-margin-top: 50ex; 
+    scroll-margin-top: 150ex; 
 
 }
  
@@ -965,6 +965,35 @@ body{
 
 
 
+.grillaServicios21{
+    grid-area: grillaServicios21;
+}
+.grillaServicios22{
+    grid-area: grillaServicios22;
+    scroll-margin-top: 90ex; 
+
+}
+.grillaServicios31{
+    grid-area: grillaServicios31;
+
+}
+.grillaServicios32{
+
+    grid-area: grillaServicios32;
+    scroll-margin-top: 90ex; 
+}
+.grillaServicios41{
+    grid-area: grillaServicios41;
+
+}
+.grillaServicios42{
+    grid-area: grillaServicios42;
+    scroll-margin-top: 90ex; 
+
+}  
+
+
+
 
 
 
@@ -1277,8 +1306,37 @@ img{
     }
     
     
+
+    .grillaServicios21{
+        grid-area: grillaServicios21;
+    }
+    .grillaServicios22{
+        grid-area: grillaServicios22;
+        scroll-margin-top: 50ex; 
+    
+    }
+    .grillaServicios31{
+        grid-area: grillaServicios31;
+    
+    }
+    .grillaServicios32{
+    
+        grid-area: grillaServicios32;
+        scroll-margin-top: 50ex; 
+    }
+    .grillaServicios41{
+        grid-area: grillaServicios41;
+    
+    }
+    .grillaServicios42{
+        grid-area: grillaServicios42;
+        scroll-margin-top: 50ex; 
+    
+    }
     
  
+
+
     
     
     .grillaContacto{
