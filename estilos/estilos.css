@@ -277,7 +277,7 @@ body{
  .grillaIndex{
     
     
-    background-image: url('../img/planchado-y-pintura4.jpg');
+    background-image: url('../img/imagenDeFondo2.jpg');
 
     background-color: rgb(100, 105, 105);
     display: grid;
@@ -663,32 +663,16 @@ p{
     position: relative;
     left: 20px;
     top: 0px;
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 150%;
-    font-family: 'Lato', sans-serif
-}
-
-
-
-
-
-.botonAnimacion{
+    
     background-color: rgb(136, 8, 8);
     color: aliceblue;
     font-size: 150%;
     font-family: 'Lato', sans-serif;
-
-    position: relative;
-    top: 0px;
-    left: 20px;
-
-    width: 60px;
-    height: 30px;
-    transition: none;
+    
 }
 
-.botonAnimacion:hover{
+
+.linkLlamar:hover{
     transform: scale(120.5%);
 }
 
@@ -703,9 +687,8 @@ p{
     text-decoration: none;
     color: aliceblue;
     font-size: 150%;
-    font-family: 'Lato', sans-serif
+    font-family: 'Lato', sans-serif;
 
-    
 
 }
 
@@ -853,13 +836,13 @@ body{
 
  
  .carousel{
-    z-index: 10;
+   
  }
  .navbar-nav{
-    z-index: 20;
+    
  }
  .posicionmenu{
-    z-index: 15;
+   
 
  }
 
