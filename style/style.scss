@@ -1,22 +1,16 @@
 
 
 
+@import "generales";
+@import "nav";
+@import "texto";
+
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@700&family=Open+Sans:wdth,wght@75,700&display=swap');
 
 /*1-mobile-smartphone*/
 
 @media(min-width: 0px){
 
-
-*{
-    padding: 0;
-    margin: 0;
-}
-
-html{
-    font-size: 62.5%;
-    /*LETRA COMO PRIMERA VEZ*/
-}
 
 
 body{
@@ -789,15 +783,7 @@ a:hover{
 
 @media(min-width:768px){
     
-*{
-    padding: 0;
-    margin: 0;
-}
 
-html{
-    font-size: 62.5%;
-    /*LETRA COMO PRIMERA VEZ*/
-}
 
 
 body{
@@ -1131,7 +1117,7 @@ img{
 
 /*PRUEBA*/
 
-@media(min-width:775px){
+@media(min-width:768px){
     
     .grillaIndex{
 
@@ -1172,9 +1158,7 @@ img{
 @media(min-width:1024px) {
 
     
-    html{
-        font-size: 62.5%;
-    }
+  
     
     body{
         text-align: left;

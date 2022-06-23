@@ -1,0 +1,983 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@700&family=Open+Sans:wdth,wght@75,700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+  /*LETRA COMO PRIMERA VEZ*/
+}
+
+#grillaIndex1 h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 360%;
+  color: aliceblue;
+  padding: 20px 20px 10px 20px;
+}
+#grillaIndex1 h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 240%;
+  color: aliceblue;
+  padding: 10px 20px 5px 20px;
+}
+#grillaIndex1 p {
+  font-family: "Lato", sans-serif;
+  font-size: 150%;
+  color: aliceblue;
+  padding: 5px 20px 5px 20px;
+}
+
+/*1-mobile-smartphone*/
+@media (min-width: 0px) {
+  body {
+    font-size: 90%;
+    text-align: center;
+    font-weight: bolder;
+    display: flex;
+    /*ver esto, junto con el column si al final estan bien*/
+    /*quite de aqui el text align center*/
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  #pag1 {
+    display: grid;
+    grid-template-areas: "pag11" "pag12" "pag13" "pag14";
+  }
+
+  #pag11 {
+    grid-area: pag11;
+    z-index: 20;
+  }
+
+  #pag12 {
+    grid-area: pag12;
+    z-index: 10;
+  }
+
+  #pag13 {
+    grid-area: pag13;
+  }
+
+  #pag14 {
+    grid-area: pag14;
+  }
+
+  #pag2 {
+    display: grid;
+    grid-template-areas: "pag21" "pag22" "pag23" "pag24" "pag25" "pag26";
+  }
+
+  #pag21 {
+    grid-area: pag21;
+    z-index: 20;
+  }
+
+  #pag22 {
+    grid-area: pag22;
+    z-index: 10;
+  }
+
+  #pag23 {
+    grid-area: pag23;
+  }
+
+  #pag24 {
+    grid-area: pag24;
+  }
+
+  #pag25 {
+    grid-area: pag25;
+  }
+
+  #pag26 {
+    grid-area: pag26;
+  }
+
+  #pag3 {
+    display: grid;
+    grid-template-areas: "pag31" "pag32" "pag33" "pag34" "pag35";
+  }
+
+  #pag31 {
+    grid-area: pag31;
+    z-index: 20;
+  }
+
+  #pag32 {
+    grid-area: pag32;
+    z-index: 10;
+  }
+
+  #pag33 {
+    grid-area: pag33;
+  }
+
+  #pag34 {
+    grid-area: pag34;
+  }
+
+  #pag35 {
+    grid-area: pag35;
+  }
+
+  #pag4 {
+    display: grid;
+    grid-template-areas: "pag41" "pag42" "pag43" "pag44" "pag45";
+  }
+
+  #pag41 {
+    grid-area: pag41;
+    z-index: 20;
+  }
+
+  #pag42 {
+    grid-area: pag42;
+    z-index: 10;
+  }
+
+  #pag43 {
+    grid-area: pag43;
+  }
+
+  #pag44 {
+    grid-area: pag44;
+  }
+
+  #pag45 {
+    grid-area: pag45;
+  }
+
+  #pag5 {
+    display: grid;
+    grid-template-areas: "pag51" "pag52" "pag53" "pag54";
+  }
+
+  #pag51 {
+    grid-area: pag51;
+    z-index: 20;
+  }
+
+  #pag52 {
+    grid-area: pag52;
+    z-index: 10;
+  }
+
+  #pag53 {
+    grid-area: pag53;
+  }
+
+  #pag54 {
+    grid-area: pag54;
+  }
+
+  .grillaMenu {
+    height: 124px;
+  }
+
+  .colormenu {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .logo {
+    width: 120px;
+    position: relative;
+    left: 0px;
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+  }
+
+  .letraslogo {
+    text-align: left;
+    font-size: 130%;
+    font-family: "Dancing Script", cursive;
+    color: rgb(214, 214, 209);
+    font-weight: bolder;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    position: relative;
+    left: 0px;
+    top: 30px;
+  }
+
+  .columnaslogo {
+    -moz-column-count: 2;
+         column-count: 2;
+  }
+
+  .letrasmenu {
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    color: rgb(76, 150, 150);
+    font-size: 180%;
+    margin: 0px 10px 0px 10px;
+  }
+
+  .posicionmenu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .colorhamburguesa {
+    background-color: rgb(76, 150, 150);
+    width: 40px;
+    height: 40px;
+  }
+
+  .grillaIndex {
+    background-image: url("../img/imagenDeFondo2.jpg");
+    background-color: rgb(100, 105, 105);
+    display: grid;
+    grid-template-areas: "grillaIndex1 grillaIndex2";
+    height: 750px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grillaIndex1 {
+    grid-area: grillaIndex1;
+  }
+
+  .grillaIndex2 {
+    grid-area: grillaIndex2;
+  }
+
+  footer {
+    background-color: black;
+    -moz-column-count: 3;
+         column-count: 3;
+    padding: 20px 0px 0px 0px;
+  }
+
+  .grillaFooter {
+    background-color: black;
+    display: grid;
+    grid-template-areas: "grillaFooter2 grillaFooter3";
+    height: 360px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .grillaFooter1 {
+    display: none;
+  }
+
+  .grillaFooter2 {
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-area: grillaFooter2;
+  }
+
+  .grillaFooter3 {
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-area: grillaFooter3;
+  }
+
+  .sectionServicios {
+    padding: 20px 0px 20px 0px;
+    background-color: rgb(100, 105, 105);
+    /*SI TIENE, ES EL TITULO*/
+    text-align: center;
+  }
+
+  .grillaServicios1 {
+    background-color: rgb(76, 150, 150);
+    display: grid;
+    text-align: center;
+    grid-template-areas: "grillaServicios11" "grillaServicios12" "grillaServicios13";
+    height: 800px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .grillaServicios11 {
+    grid-area: grillaServicios11;
+  }
+
+  .grillaServicios12 {
+    grid-area: grillaServicios12;
+  }
+
+  .grillaServicios13 {
+    grid-area: grillaServicios13;
+  }
+
+  .grillaServicios234 {
+    background-color: rgb(100, 105, 105);
+    display: grid;
+    grid-template-areas: "grillaServicios21" "grillaServicios22" "grillaServicios31" "grillaServicios32" "grillaServicios41" "grillaServicios42";
+    height: 1500px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+  }
+
+  .grillaServicios21 {
+    grid-area: grillaServicios21;
+  }
+
+  .grillaServicios22 {
+    grid-area: grillaServicios22;
+    scroll-margin-top: 150ex;
+  }
+
+  .grillaServicios31 {
+    grid-area: grillaServicios31;
+  }
+
+  .grillaServicios32 {
+    grid-area: grillaServicios32;
+    scroll-margin-top: 150ex;
+  }
+
+  .grillaServicios41 {
+    grid-area: grillaServicios41;
+  }
+
+  .grillaServicios42 {
+    grid-area: grillaServicios42;
+    scroll-margin-top: 150ex;
+  }
+
+  .botonesServicios {
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .grillaContacto {
+    background-color: rgb(100, 105, 105);
+    display: grid;
+    grid-template-areas: "grillaContacto1 grillaContacto2";
+    height: 340px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .grillaContacto1 {
+    grid-area: grillaContacto1;
+  }
+
+  .grillaContacto2 {
+    grid-area: grillaContacto2;
+  }
+
+  .grillaHistoria {
+    background-color: rgb(100, 105, 105);
+    display: grid;
+    grid-template-areas: "grillaHistoria1" "grillaHistoria2";
+    height: 600px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grillaHistoria1 {
+    text-align: center;
+    align-items: center;
+    grid-area: grillaHistoria1;
+  }
+
+  .grillaHistoria2 {
+    grid-area: grillaHistoria2;
+    text-align: center;
+  }
+
+  .grillaExperiencias {
+    background-color: rgb(100, 105, 105);
+    display: grid;
+    grid-template-areas: "grillaExperiencias1" "grillaExperiencias2";
+    height: 625px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grillaExperiencias1 {
+    text-align: center;
+    align-items: center;
+    grid-area: grillaExperiencias1;
+  }
+
+  .grillaExperiencias2 {
+    grid-area: grillaExperiencias2;
+    text-align: center;
+  }
+
+  .grillaParteFinal {
+    display: grid;
+    grid-template-areas: "grillaParteFinal1";
+    height: 40px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .grillaParteFinal1 {
+    background-color: rgb(76, 150, 150);
+    color: aliceblue;
+    font-family: "Lato", sans-serif;
+    font-size: 150%;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    -moz-column-count: 1;
+         column-count: 1;
+  }
+
+  main {
+    background-color: rgb(100, 105, 105);
+    /*ESTO AUN EXISTE EN EL INICIO*/
+    padding: 0px 0px 20px 0px;
+  }
+
+  h1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 360%;
+    color: aliceblue;
+    padding: 20px 20px 10px 20px;
+  }
+
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 240%;
+    color: aliceblue;
+    padding: 10px 20px 5px 20px;
+  }
+
+  h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 200%;
+    color: rgb(76, 150, 150);
+    padding: 10px 20px 10px 20px;
+  }
+
+  h5 {
+    font-family: "Lato", sans-serif;
+    font-size: 200%;
+    color: aliceblue;
+    padding: 10px 20px 10px 20px;
+  }
+
+  p {
+    font-family: "Lato", sans-serif;
+    font-size: 150%;
+    color: aliceblue;
+    padding: 5px 20px 5px 20px;
+  }
+
+  .linkLlamar {
+    position: relative;
+    left: 20px;
+    top: 0px;
+    background-color: rgb(136, 8, 8);
+    color: aliceblue;
+    font-size: 150%;
+    font-family: "Lato", sans-serif;
+  }
+
+  .linkLlamar:hover {
+    transform: scale(120.5%);
+  }
+
+  .linkFooter {
+    position: relative;
+    left: 20px;
+    top: 0px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 150%;
+    font-family: "Lato", sans-serif;
+  }
+
+  img {
+    margin: 20px 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+  .imagenServicios1 {
+    width: 450px;
+    min-width: none;
+  }
+
+  .imagenServicios2 {
+    width: 450px;
+    min-width: none;
+  }
+
+  .imagenHistoria {
+    width: 400px;
+    min-width: none;
+    margin: 15px 20px 10px 20px;
+  }
+
+  .imagenExperiencias {
+    width: 400px;
+    min-width: none;
+  }
+
+  form {
+    padding: 20px 20px 0px 20px;
+    font-size: 150%;
+  }
+
+  .formContacto {
+    color: aliceblue;
+    font-family: "Lato", sans-serif;
+  }
+
+  .googleMaps {
+    background-color: rgb(49, 65, 65);
+    color: black;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .letraGoogleMaps {
+    padding: 0px 0px 0px 0px;
+  }
+
+  .tamañoMapa {
+    width: 600px;
+  }
+
+  /*enlaces no visitados*/
+  a:link {
+    color: rgb(255, 255, 255);
+  }
+
+  /*enlaces visitDOS*/
+  a:visited {
+    color: rgb(100, 105, 105);
+  }
+
+  /*enlaces activos*/
+  a:active {
+    color: rgb(76, 150, 150);
+  }
+
+  /*apoyemos el mouse sobre el enlace*/
+  a:hover {
+    background: rgb(136, 8, 8);
+  }
+}
+/*2-tablet{*/
+@media (min-width: 768px) {
+  body {
+    text-align: left;
+    font-weight: bolder;
+    display: flex;
+    /*ver esto, junto con el column si al final estan bien*/
+    /*quite de aqui el text align center*/
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .grillaMenu {
+    height: 124px;
+  }
+
+  .columnaslogo {
+    -moz-column-count: 2;
+         column-count: 2;
+  }
+
+  .posicionmenu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .grillaIndex {
+    display: grid;
+    grid-template-areas: "grillaIndex1 grillaIndex2";
+    height: 750px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grillaFooter {
+    display: grid;
+    grid-template-areas: "grillaFooter1 grillaFooter2 grillaFooter3";
+    height: 360px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .grillaFooter1 {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-area: grillaFooter1;
+  }
+
+  .grillaFooter2 {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-area: grillaFooter2;
+  }
+
+  .grillaFooter3 {
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-area: grillaFooter3;
+  }
+
+  .grillaServicios1 {
+    display: grid;
+    text-align: center;
+    grid-template-areas: "grillaServicios11 grillaServicios12 grillaServicios13";
+    height: 270px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .grillaServicios234 {
+    display: grid;
+    grid-template-areas: "grillaServicios21 grillaServicios22" "grillaServicios31 grillaServicios32" "grillaServicios41 grillaServicios42";
+    height: 1400px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 0px 30px 0px;
+    justify-content: left;
+    align-items: left;
+    text-align: center;
+  }
+
+  .grillaServicios21 {
+    grid-area: grillaServicios21;
+  }
+
+  .grillaServicios22 {
+    grid-area: grillaServicios22;
+    scroll-margin-top: 90ex;
+  }
+
+  .grillaServicios31 {
+    grid-area: grillaServicios31;
+  }
+
+  .grillaServicios32 {
+    grid-area: grillaServicios32;
+    scroll-margin-top: 90ex;
+  }
+
+  .grillaServicios41 {
+    grid-area: grillaServicios41;
+  }
+
+  .grillaServicios42 {
+    grid-area: grillaServicios42;
+    scroll-margin-top: 90ex;
+  }
+
+  .grillaContacto {
+    display: grid;
+    grid-template-areas: "grillaContacto1 grillaContacto2";
+    height: 320px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .grillaHistoria {
+    display: grid;
+    grid-template-areas: "grillaHistoria1" "grillaHistoria2";
+    height: 600px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grillaExperiencias {
+    display: grid;
+    grid-template-areas: "grillaExperiencias1" "grillaExperiencias2";
+    height: 550px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grillaParteFinal {
+    display: grid;
+    grid-template-areas: "grillaParteFinal1";
+    height: 40px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    background-color: rgb(100, 105, 105);
+    /*ESTO AUN EXISTE EN EL INICIO*/
+    padding: 0px 0px 20px 0px;
+  }
+
+  img {
+    margin: 20px 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+  .imagenServicios1 {
+    width: 450px;
+    min-width: none;
+  }
+
+  .imagenServicios2 {
+    width: 450px;
+    min-width: none;
+  }
+
+  .imagenHistoria {
+    width: 400px;
+    min-width: none;
+    margin: 15px 20px 10px 20px;
+  }
+
+  .imagenExperiencias {
+    width: 400px;
+    min-width: none;
+  }
+
+  .tamañoMapa {
+    width: 750px;
+  }
+}
+/*PRUEBA*/
+@media (min-width: 768px) {
+  .grillaIndex {
+    display: grid;
+    grid-template-areas: "grillaIndex1 grillaIndex2";
+    height: 450px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+}
+/*3-desktop*/
+@media (min-width: 1024px) {
+  body {
+    text-align: left;
+    font-weight: bolder;
+    display: flex;
+    /*ver esto, junto con el column si al final estan bien*/
+    /*quite de aqui el text align center*/
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .grillaMenu {
+    height: 124px;
+  }
+
+  .posicionmenu {
+    display: flex;
+    justify-content: end;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(76, 150, 150);
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  nav ul li {
+    display: inline-block;
+  }
+
+  .grillaIndex {
+    display: grid;
+    grid-template-areas: "grillaIndex1 grillaIndex2";
+    height: 450px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grillaFooter {
+    display: grid;
+    grid-template-areas: "grillaFooter1 grillaFooter2 grillaFooter3";
+    height: 350px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .grillaServicios1 {
+    display: grid;
+    text-align: center;
+    grid-template-areas: "grillaServicios11 grillaServicios12 grillaServicios13";
+    height: 260px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .grillaServicios234 {
+    display: grid;
+    grid-template-areas: "grillaServicios21 grillaServicios22" "grillaServicios31 grillaServicios32" "grillaServicios41 grillaServicios42";
+    height: 1100px;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+
+  .grillaServicios21 {
+    grid-area: grillaServicios21;
+  }
+
+  .grillaServicios22 {
+    grid-area: grillaServicios22;
+    scroll-margin-top: 50ex;
+  }
+
+  .grillaServicios31 {
+    grid-area: grillaServicios31;
+  }
+
+  .grillaServicios32 {
+    grid-area: grillaServicios32;
+    scroll-margin-top: 50ex;
+  }
+
+  .grillaServicios41 {
+    grid-area: grillaServicios41;
+  }
+
+  .grillaServicios42 {
+    grid-area: grillaServicios42;
+    scroll-margin-top: 50ex;
+  }
+
+  .grillaContacto {
+    display: grid;
+    grid-template-areas: "grillaContacto1 grillaContacto2";
+    height: 320px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: left;
+    align-items: left;
+    justify-items: left;
+  }
+
+  .grillaHistoria {
+    display: grid;
+    grid-template-areas: "grillaHistoria1 grillaHistoria2";
+    height: 370px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .grillaHistoria1 {
+    text-align: left;
+  }
+
+  .grillaHistoria2 {
+    text-align: left;
+  }
+
+  .grillaExperiencias {
+    display: grid;
+    grid-template-areas: "grillaExperiencias1 grillaExperiencias2";
+    height: 370px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .grillaExperiencias1 {
+    text-align: left;
+  }
+
+  .grillaExperiencias2 {
+    text-align: left;
+  }
+
+  .grillaParteFinal {
+    display: grid;
+    grid-template-areas: "grillaParteFinal1";
+    height: 40px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    background-color: rgb(100, 105, 105);
+    /*ESTO AUN EXISTE EN EL INICIO*/
+    padding: 0px 0px 20px 0px;
+  }
+
+  img {
+    margin: 20px 20px 20px 20px;
+    border: 5px solid black;
+  }
+
+  .imagenServicios1 {
+    width: 450px;
+    min-width: none;
+  }
+
+  .imagenServicios2 {
+    width: 450px;
+    min-width: none;
+  }
+
+  .imagenHistoria {
+    width: 450px;
+    min-width: none;
+    margin: 15px 20px 10px 20px;
+  }
+
+  .imagenExperiencias {
+    width: 450px;
+    min-width: none;
+  }
+
+  .tamañoMapa {
+    width: 900px;
+  }
+}/*# sourceMappingURL=style.css.map */
