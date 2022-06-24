@@ -10,6 +10,16 @@ html {
   /*LETRA COMO PRIMERA VEZ*/
 }
 
+.linkLlamar {
+  color: rgb(136, 8, 8);
+  width: 300px;
+  height: 50px;
+}
+
+h2 {
+  color: rgb(73, 140, 92);
+}
+
 #grillaIndex1 h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 360%;
@@ -19,13 +29,13 @@ html {
 #grillaIndex1 h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 240%;
-  color: aliceblue;
+  color: aqua;
   padding: 10px 20px 5px 20px;
 }
 #grillaIndex1 p {
   font-family: "Lato", sans-serif;
   font-size: 150%;
-  color: aliceblue;
+  color: rgb(136, 8, 8);
   padding: 5px 20px 5px 20px;
 }
 
@@ -251,8 +261,6 @@ html {
 
   footer {
     background-color: black;
-    -moz-column-count: 3;
-         column-count: 3;
     padding: 20px 0px 0px 0px;
   }
 
@@ -266,22 +274,15 @@ html {
   }
 
   .grillaFooter1 {
+    grid-area: grillaFooter1;
     display: none;
   }
 
   .grillaFooter2 {
-    background-color: rgb(0, 0, 0);
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
     grid-area: grillaFooter2;
   }
 
   .grillaFooter3 {
-    background-color: rgb(0, 0, 0);
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
     grid-area: grillaFooter3;
   }
 
@@ -630,23 +631,15 @@ html {
   }
 
   .grillaFooter1 {
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: inline;
     grid-area: grillaFooter1;
   }
 
   .grillaFooter2 {
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
     grid-area: grillaFooter2;
   }
 
   .grillaFooter3 {
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
     grid-area: grillaFooter3;
   }
 

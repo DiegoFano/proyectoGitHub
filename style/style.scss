@@ -1,9 +1,11 @@
 
 
-
+@import "variables";
 @import "generales";
 @import "nav";
+@import "operaciones";
 @import "texto";
+
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@700&family=Open+Sans:wdth,wght@75,700&display=swap');
 
@@ -305,7 +307,6 @@ body{
  
  footer{
     background-color: black;
-    column-count: 3;
     padding: 20px 0px 0px 0px;
 }
 
@@ -319,28 +320,26 @@ body{
     grid-template-rows: 1fr; 
     grid-template-columns: 1fr 1fr;
     
+    
 }
 
  .grillaFooter1{
+    grid-area: grillaFooter1;
     display: none;
 
 }
 
 .grillaFooter2{
-    background-color: rgb(0, 0, 0);
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
+
     grid-area: grillaFooter2;
-    
+  
 }
 
 .grillaFooter3{
-    background-color: rgb(0, 0, 0);
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
+    
     grid-area: grillaFooter3;
+  
+  
 
 }
 
@@ -866,26 +865,16 @@ body{
 }
 
  .grillaFooter1{
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: inline;
     grid-area: grillaFooter1;
-
 }
 
 .grillaFooter2{
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
     grid-area: grillaFooter2;
 }
 
 .grillaFooter3{
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
     grid-area: grillaFooter3;
-
 }
 
 

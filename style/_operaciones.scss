@@ -1,0 +1,45 @@
+.linkLlamar{
+    color: $color;
+    width: $ancho/2;
+    height: ($ancho/3)-150px;
+}
+
+
+
+
+
+
+
+
+
+h2{
+    @if $tipografia == verde{
+        color: aqua;
+    
+    }
+    
+    @else if $tipografia == azul{
+        color: aquamarine;
+    
+    }
+    
+    @else {
+        color: bisque;
+    
+    }
+    
+    }
+
+
+
+ h2{
+    @if $mostrar {
+        border:2px dashed red;
+
+    }
+
+
+
+ }
+
+
