@@ -11,33 +11,44 @@ html {
 }
 
 .linkLlamar {
-  color: rgb(136, 8, 8);
+  color: red;
   width: 300px;
   height: 50px;
 }
 
 h2 {
-  color: rgb(73, 140, 92);
+  color: rgb(51, 229, 170);
 }
 
-#grillaIndex1 h1 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 360%;
-  color: aliceblue;
-  padding: 20px 20px 10px 20px;
+h2 {
+  border: 2px dashed rgb(208, 40, 40);
 }
-#grillaIndex1 h2 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 240%;
+
+/*bucle*/
+.bucle-1 {
+  background-color: rgb(48, 163, 163);
   color: aqua;
-  padding: 10px 20px 5px 20px;
+  width: 100px;
 }
-#grillaIndex1 p {
-  font-family: "Lato", sans-serif;
-  font-size: 150%;
-  color: rgb(136, 8, 8);
-  padding: 5px 20px 5px 20px;
+
+.bucle-2 {
+  background-color: rgb(48, 163, 163);
+  color: aqua;
+  width: 200px;
 }
+
+.bucle-3 {
+  background-color: rgb(48, 163, 163);
+  color: aqua;
+  width: 300px;
+}
+
+.bucle-4 {
+  background-color: rgb(48, 163, 163);
+  color: aqua;
+  width: 400px;
+}
+
 
 /*1-mobile-smartphone*/
 @media (min-width: 0px) {
@@ -467,7 +478,6 @@ h2 {
   h2 {
     font-family: "Open Sans", sans-serif;
     font-size: 240%;
-    color: aliceblue;
     padding: 10px 20px 5px 20px;
   }
 
