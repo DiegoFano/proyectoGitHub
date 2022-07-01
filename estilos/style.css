@@ -10,12 +10,19 @@ html {
   /*LETRA COMO PRIMERA VEZ*/
 }
 
+<<<<<<< HEAD
 .linkLlamar {
   color: red;
+=======
+/*operaciones*/
+.linkLlamar {
+  color: rgb(136, 8, 8);
+>>>>>>> 68f5d36
   width: 300px;
   height: 50px;
 }
 
+<<<<<<< HEAD
 h2 {
   color: rgb(51, 229, 170);
 }
@@ -49,6 +56,130 @@ h2 {
   width: 400px;
 }
 
+=======
+/*condicionales*/
+h2 {
+  color: aqua;
+}
+
+h2 {
+  border: 2px dashed red;
+}
+
+/*bucle*/
+.casitodos-1 {
+  background-color: rgb(198, 107, 22);
+  color: rgb(255, 255, 255);
+  width: 100px;
+}
+
+.casitodos-2 {
+  background-color: rgb(198, 107, 22);
+  color: rgb(255, 255, 255);
+  width: 200px;
+}
+
+.casitodos-3 {
+  background-color: rgb(198, 107, 22);
+  color: rgb(255, 255, 255);
+  width: 300px;
+}
+
+.casitodos-4 {
+  background-color: rgb(198, 107, 22);
+  color: rgb(255, 255, 255);
+  width: 400px;
+}
+
+/*each*/
+.planchado1-fondo {
+  width: 60px;
+  height: 30px;
+  background-image: url("../img/planchado1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 4px solid rgb(0, 0, 0);
+}
+
+.pintura1-fondo {
+  width: 60px;
+  height: 30px;
+  background-image: url("../img/pintura1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 4px solid rgb(0, 0, 0);
+}
+
+.pintura1-fondo {
+  width: 60px;
+  height: 30px;
+  background-image: url("../img/pintura1.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 4px solid rgb(0, 0, 0);
+}
+
+/*mapas*/
+.btn--facebook {
+  background-color: #a4b8e3;
+}
+
+.btn--instagram {
+  background-color: #b89f24;
+}
+
+/*Extend*/
+.redSocial, .redsocial--mark, .redsocial--nueva, .redsocial--social {
+  border: 2px solid rgb(36, 32, 32);
+  background-color: rgb(71, 120, 181);
+}
+
+.redsocial--social {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(218, 217, 217);
+  border: 5px solid rgb(255, 0, 0);
+}
+
+.redsocial--nueva {
+  font-size: 150%;
+  color: rgb(90, 112, 90);
+  border: 3px dashed rgb(183, 132, 51);
+}
+
+.redsocial--mark {
+  font-size: 120%;
+  color: rgb(0, 0, 0);
+  border: 3px solid rgb(43, 68, 77);
+}
+
+/*mixin*/
+.my_mixin {
+  height: 20px;
+  width: 300px;
+  background-color: lightcoral;
+}
+
+#grillaIndex1 h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 360%;
+  color: aliceblue;
+  padding: 20px 20px 10px 20px;
+}
+#grillaIndex1 h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 240%;
+  padding: 10px 20px 5px 20px;
+}
+#grillaIndex1 p {
+  font-family: "Lato", sans-serif;
+  font-size: 150%;
+  color: rgb(136, 8, 8);
+  padding: 5px 20px 5px 20px;
+}
+>>>>>>> 68f5d36
 
 /*1-mobile-smartphone*/
 @media (min-width: 0px) {

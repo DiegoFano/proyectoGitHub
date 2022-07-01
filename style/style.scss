@@ -4,7 +4,12 @@
 @import "generales";
 @import "nav";
 @import "operaciones";
+<<<<<<< HEAD
 @import "texto";
+=======
+@import "textos";
+
+>>>>>>> 68f5d36
 
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@700&family=Open+Sans:wdth,wght@75,700&display=swap');
@@ -14,7 +19,10 @@
 @media(min-width: 0px){
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 68f5d36
 body{
     font-size: 90%;
     text-align: center;
@@ -23,9 +31,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
 
-
 }
-
 
 #pag1 {
     display: grid;
@@ -51,7 +57,6 @@ body{
 #pag14{
     grid-area: pag14;
 }
-
 
 
 
@@ -93,7 +98,6 @@ body{
 
 
 
-
 #pag3 {
     display: grid;
     grid-template-areas:
@@ -121,7 +125,6 @@ body{
 #pag35{
     grid-area: pag35;
 }
-
 
 
 
@@ -158,7 +161,6 @@ body{
 
 
 
-
 #pag5 {
     display: grid;
     grid-template-areas:
@@ -189,7 +191,6 @@ body{
 
 
 
-
 .grillaMenu {
    
     height: 124px;
@@ -200,7 +201,6 @@ body{
     background-color: black;
     margin: 0px;
     padding: 0px;
-
 
  }
 
@@ -240,7 +240,6 @@ body{
 
  }
 
-
  .posicionmenu{
     display: flex;
     justify-content: center;
@@ -254,7 +253,6 @@ body{
 
 
 
-
  .carousel{
     
  }
@@ -265,7 +263,6 @@ body{
    
 
  }
-
 
 
 
@@ -287,9 +284,7 @@ body{
     display: flex;
     flex-direction: column;
 
-
 }
-
 
 .grillaIndex1{
     grid-area: grillaIndex1;
@@ -303,13 +298,11 @@ body{
 
 
 
-
  
  footer{
     background-color: black;
     padding: 20px 0px 0px 0px;
 }
-
 
  .grillaFooter{
     background-color: black;
@@ -347,14 +340,12 @@ body{
 
 
 
-
 .sectionServicios{
     padding: 20px 0px 20px 0px;
     background-color: rgb(100, 105, 105);
     /*SI TIENE, ES EL TITULO*/
     text-align: center;
 }
-
 
 .grillaServicios1{
     
@@ -374,7 +365,6 @@ body{
     justify-content: space-between;
 }
 
-
 .grillaServicios11{
     grid-area: grillaServicios11;
 }
@@ -386,7 +376,6 @@ body{
 .grillaServicios13{
     grid-area: grillaServicios13;
 }
-
 
 
 
@@ -408,7 +397,6 @@ body{
     grid-template-rows: 1fr 1fr 1fr; 
     grid-template-columns: 1fr 1fr;
 
-
     justify-content: center;
     align-items: center; 
     display: flex;
@@ -418,7 +406,6 @@ body{
      
     
 }
-
 
 
 .grillaServicios21{
@@ -450,7 +437,6 @@ body{
  
 
 
-
 .botonesServicios{
   
     position: relative;
@@ -459,7 +445,6 @@ body{
     
 
 }
-
 
 
 
@@ -482,7 +467,6 @@ body{
     justify-items: center;
 }
 
-
 .grillaContacto1{
     grid-area: grillaContacto1;
 }
@@ -490,7 +474,6 @@ body{
 .grillaContacto2{
     grid-area: grillaContacto2;
 }
-
 
 
 
@@ -515,12 +498,10 @@ body{
     flex-direction: column;
 }
 
-
 .grillaHistoria1{
     text-align: center;
     align-items: center;
     grid-area: grillaHistoria1;
-
 
 }
 
@@ -529,7 +510,6 @@ body{
     text-align: center;
 
 }
-
 
 
 
@@ -551,7 +531,6 @@ body{
     flex-direction: column;
 }
 
-
 .grillaExperiencias1{
     text-align: center;
     align-items: center;
@@ -568,7 +547,6 @@ body{
 
 
 
-
 .grillaParteFinal{
     display: grid;
     grid-template-areas:
@@ -579,7 +557,6 @@ body{
     
 
 }
-
 
 .grillaParteFinal1{
     background-color: rgb(76, 150, 150);
@@ -597,13 +574,11 @@ body{
 
 
 
-
 main{
     background-color: rgb(100, 105, 105);
     /*ESTO AUN EXISTE EN EL INICIO*/
     padding: 0px 0px 20px 0px;
 }
-
 
 
 
@@ -626,14 +601,12 @@ h2{
     padding: 10px 20px 5px 20px;
 }
 
-
 h3{
     font-family: 'Open Sans', sans-serif;
     font-size: 200%;
     color: rgb(76, 150, 150);
     padding: 10px 20px 10px 20px;
 }
-
 
 h5{
     font-family: 'Lato', sans-serif;
@@ -642,14 +615,12 @@ h5{
     padding: 10px 20px 10px 20px;
 }
 
-
 p{
     font-family: 'Lato', sans-serif;
     font-size: 150%;
     color: aliceblue;
     padding: 5px 20px 5px 20px;
 }
-
 
 
 .linkLlamar{
@@ -664,11 +635,9 @@ p{
     
 }
 
-
 .linkLlamar:hover{
     transform: scale(120.5%);
 }
-
 
 
 
@@ -682,9 +651,7 @@ p{
     font-size: 150%;
     font-family: 'Lato', sans-serif;
 
-
 }
-
 
 
 
@@ -696,18 +663,15 @@ img{
 }
 
 
-
 .imagenServicios1{
     width: 450px;
     min-width: none;
 }
 
-
 .imagenServicios2{
     width: 450px;
     min-width: none;
 }
-
 
 .imagenHistoria{
     width: 400px;
@@ -719,7 +683,6 @@ img{
     width: 400px;
     min-width: none;
 }
-
 
 form{
     padding: 20px 20px 0px 20px;
@@ -740,11 +703,9 @@ form{
 
 }
 
-
 .tamañoMapa{
     width: 600px;
 }
-
 
 /*enlaces no visitados*/
 a:link{
@@ -764,9 +725,7 @@ a:hover{
 }
 
 
-
 }
-
 
 
 
@@ -782,7 +741,10 @@ a:hover{
 
 @media(min-width:768px){
     
+<<<<<<< HEAD
 
+=======
+>>>>>>> 68f5d36
 
 
 body{
@@ -793,7 +755,6 @@ body{
     min-height: 100vh;
 
 }
-
 
 
 
@@ -810,12 +771,10 @@ body{
  }
 
 
-
  .posicionmenu{
     display: flex;
     justify-content: center;
  }
-
 
 
 
@@ -834,7 +793,6 @@ body{
 
 
 
-
  .grillaIndex{
   
     display: grid;
@@ -848,7 +806,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
 
 
 
@@ -881,7 +838,6 @@ body{
 
 
 
-
 .grillaServicios1{
 
     display: grid;
@@ -896,7 +852,6 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
-
 
 
 
@@ -920,7 +875,6 @@ body{
      
     
 }
-
 
 
 .grillaServicios21{
@@ -954,7 +908,6 @@ body{
 
 
 
-
 .grillaContacto{
     
     display: grid;
@@ -973,7 +926,6 @@ body{
 
 
 
-
 .grillaHistoria{
     
     display: grid;
@@ -988,7 +940,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
 
 
 
@@ -1013,7 +964,6 @@ body{
 
 
 
-
 .grillaParteFinal{
     display: grid;
     grid-template-areas:
@@ -1024,7 +974,6 @@ body{
     
 
 }
-
 
 
 
@@ -1041,12 +990,10 @@ main{
 
 
 
-
 img{
     margin: 20px 20px 20px 20px;
     border: 5px solid black;
 }
-
 
 
 .imagenServicios1{
@@ -1054,12 +1001,10 @@ img{
     min-width: none;
 }
 
-
 .imagenServicios2{
     width: 450px;
     min-width: none;
 }
-
 
 .imagenHistoria{
     width: 400px;
@@ -1072,15 +1017,12 @@ img{
     min-width: none;
 }
 
-
 .tamañoMapa{
     width: 750px;
 }
 
 
-
 }
-
 
 
 
@@ -1141,7 +1083,6 @@ img{
 
 
 
-
 /*3-desktop*/
 
 @media(min-width:1024px) {
@@ -1168,12 +1109,10 @@ img{
     
      
 
-
      .posicionmenu{
         display: flex;
         justify-content: end;
      }
-
 
 
 
@@ -1188,7 +1127,6 @@ img{
     nav ul li{
         display: inline-block;
     }
-
 
 
 
@@ -1208,7 +1146,6 @@ img{
     
     
     }
-
 
 
     
@@ -1292,7 +1229,6 @@ img{
     
  
 
-
     
     
     .grillaContacto{
@@ -1336,7 +1272,6 @@ img{
 
 
 
-
     
     .grillaExperiencias{
         
@@ -1358,7 +1293,6 @@ img{
     .grillaExperiencias2{
         text-align: left;
     } 
-
 
     
 
@@ -1427,6 +1361,4 @@ img{
     
 
 }
-
-
 
