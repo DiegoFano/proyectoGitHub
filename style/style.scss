@@ -1,22 +1,18 @@
 
 
+@import "variables";
+@import "generales";
+@import "nav";
+@import "operaciones";
+@import "textos";
+
+
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@700&family=Open+Sans:wdth,wght@75,700&display=swap');
 
 /*1-mobile-smartphone*/
 
 @media(min-width: 0px){
-
-
-*{
-    padding: 0;
-    margin: 0;
-}
-
-html{
-    font-size: 62.5%;
-    /*LETRA COMO PRIMERA VEZ*/
-}
 
 
 body{
@@ -27,9 +23,7 @@ body{
     flex-direction: column;
     min-height: 100vh;
 
-
 }
-
 
 #pag1 {
     display: grid;
@@ -55,7 +49,6 @@ body{
 #pag14{
     grid-area: pag14;
 }
-
 
 
 
@@ -97,7 +90,6 @@ body{
 
 
 
-
 #pag3 {
     display: grid;
     grid-template-areas:
@@ -125,7 +117,6 @@ body{
 #pag35{
     grid-area: pag35;
 }
-
 
 
 
@@ -162,7 +153,6 @@ body{
 
 
 
-
 #pag5 {
     display: grid;
     grid-template-areas:
@@ -193,7 +183,6 @@ body{
 
 
 
-
 .grillaMenu {
    
     height: 124px;
@@ -204,7 +193,6 @@ body{
     background-color: black;
     margin: 0px;
     padding: 0px;
-
 
  }
 
@@ -244,7 +232,6 @@ body{
 
  }
 
-
  .posicionmenu{
     display: flex;
     justify-content: center;
@@ -258,7 +245,6 @@ body{
 
 
 
-
  .carousel{
     
  }
@@ -269,7 +255,6 @@ body{
    
 
  }
-
 
 
 
@@ -291,9 +276,7 @@ body{
     display: flex;
     flex-direction: column;
 
-
 }
-
 
 .grillaIndex1{
     grid-area: grillaIndex1;
@@ -307,14 +290,11 @@ body{
 
 
 
-
  
  footer{
     background-color: black;
-    column-count: 3;
     padding: 20px 0px 0px 0px;
 }
-
 
  .grillaFooter{
     background-color: black;
@@ -325,31 +305,28 @@ body{
     grid-template-rows: 1fr; 
     grid-template-columns: 1fr 1fr;
     
+    
 }
 
  .grillaFooter1{
+    grid-area: grillaFooter1;
     display: none;
 
 }
 
 .grillaFooter2{
-    background-color: rgb(0, 0, 0);
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
+
     grid-area: grillaFooter2;
-    
+  
 }
 
 .grillaFooter3{
-    background-color: rgb(0, 0, 0);
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
+    
     grid-area: grillaFooter3;
+  
+  
 
 }
-
 
 
 
@@ -361,7 +338,6 @@ body{
     /*SI TIENE, ES EL TITULO*/
     text-align: center;
 }
-
 
 .grillaServicios1{
     
@@ -381,7 +357,6 @@ body{
     justify-content: space-between;
 }
 
-
 .grillaServicios11{
     grid-area: grillaServicios11;
 }
@@ -393,7 +368,6 @@ body{
 .grillaServicios13{
     grid-area: grillaServicios13;
 }
-
 
 
 
@@ -415,7 +389,6 @@ body{
     grid-template-rows: 1fr 1fr 1fr; 
     grid-template-columns: 1fr 1fr;
 
-
     justify-content: center;
     align-items: center; 
     display: flex;
@@ -425,7 +398,6 @@ body{
      
     
 }
-
 
 
 .grillaServicios21{
@@ -457,7 +429,6 @@ body{
  
 
 
-
 .botonesServicios{
   
     position: relative;
@@ -466,7 +437,6 @@ body{
     
 
 }
-
 
 
 
@@ -489,7 +459,6 @@ body{
     justify-items: center;
 }
 
-
 .grillaContacto1{
     grid-area: grillaContacto1;
 }
@@ -497,7 +466,6 @@ body{
 .grillaContacto2{
     grid-area: grillaContacto2;
 }
-
 
 
 
@@ -522,12 +490,10 @@ body{
     flex-direction: column;
 }
 
-
 .grillaHistoria1{
     text-align: center;
     align-items: center;
     grid-area: grillaHistoria1;
-
 
 }
 
@@ -536,7 +502,6 @@ body{
     text-align: center;
 
 }
-
 
 
 
@@ -558,7 +523,6 @@ body{
     flex-direction: column;
 }
 
-
 .grillaExperiencias1{
     text-align: center;
     align-items: center;
@@ -575,7 +539,6 @@ body{
 
 
 
-
 .grillaParteFinal{
     display: grid;
     grid-template-areas:
@@ -587,7 +550,6 @@ body{
 
 }
 
-
 .grillaParteFinal1{
     background-color: rgb(76, 150, 150);
     color: aliceblue;
@@ -597,7 +559,6 @@ body{
     padding: 10px 0px 10px 0px;
     column-count: 1;
 }
-
 
 
 
@@ -619,7 +580,6 @@ main{
 
 
 
-
 h1{
     font-family: 'Open Sans', sans-serif;
     font-size: 360%;
@@ -629,10 +589,9 @@ h1{
 h2{
     font-family: 'Open Sans', sans-serif;
     font-size: 240%;
-    color: aliceblue;
+    
     padding: 10px 20px 5px 20px;
 }
-
 
 h3{
     font-family: 'Open Sans', sans-serif;
@@ -641,7 +600,6 @@ h3{
     padding: 10px 20px 10px 20px;
 }
 
-
 h5{
     font-family: 'Lato', sans-serif;
     font-size: 200%;
@@ -649,14 +607,12 @@ h5{
     padding: 10px 20px 10px 20px;
 }
 
-
 p{
     font-family: 'Lato', sans-serif;
     font-size: 150%;
     color: aliceblue;
     padding: 5px 20px 5px 20px;
 }
-
 
 
 .linkLlamar{
@@ -671,11 +627,9 @@ p{
     
 }
 
-
 .linkLlamar:hover{
     transform: scale(120.5%);
 }
-
 
 
 
@@ -689,9 +643,7 @@ p{
     font-size: 150%;
     font-family: 'Lato', sans-serif;
 
-
 }
-
 
 
 
@@ -703,18 +655,15 @@ img{
 }
 
 
-
 .imagenServicios1{
     width: 450px;
     min-width: none;
 }
 
-
 .imagenServicios2{
     width: 450px;
     min-width: none;
 }
-
 
 .imagenHistoria{
     width: 400px;
@@ -726,7 +675,6 @@ img{
     width: 400px;
     min-width: none;
 }
-
 
 form{
     padding: 20px 20px 0px 20px;
@@ -747,11 +695,9 @@ form{
 
 }
 
-
 .tamañoMapa{
     width: 600px;
 }
-
 
 /*enlaces no visitados*/
 a:link{
@@ -771,9 +717,7 @@ a:hover{
 }
 
 
-
 }
-
 
 
 
@@ -789,15 +733,6 @@ a:hover{
 
 @media(min-width:768px){
     
-*{
-    padding: 0;
-    margin: 0;
-}
-
-html{
-    font-size: 62.5%;
-    /*LETRA COMO PRIMERA VEZ*/
-}
 
 
 body{
@@ -808,7 +743,6 @@ body{
     min-height: 100vh;
 
 }
-
 
 
 
@@ -825,12 +759,10 @@ body{
  }
 
 
-
  .posicionmenu{
     display: flex;
     justify-content: center;
  }
-
 
 
 
@@ -845,7 +777,6 @@ body{
    
 
  }
-
 
 
 
@@ -868,7 +799,6 @@ body{
 
 
 
-
  .grillaFooter{
     display: grid;
     grid-template-areas:
@@ -880,28 +810,17 @@ body{
 }
 
  .grillaFooter1{
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: inline;
     grid-area: grillaFooter1;
-
 }
 
 .grillaFooter2{
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
     grid-area: grillaFooter2;
 }
 
 .grillaFooter3{
-    margin: 0px;
-    display: grid;
-    grid-template-columns: 1fr;
     grid-area: grillaFooter3;
-
 }
-
 
 
 
@@ -921,7 +840,6 @@ body{
     flex-direction: row;
     justify-content: space-between;
 }
-
 
 
 
@@ -945,7 +863,6 @@ body{
      
     
 }
-
 
 
 .grillaServicios21{
@@ -979,7 +896,6 @@ body{
 
 
 
-
 .grillaContacto{
     
     display: grid;
@@ -998,7 +914,6 @@ body{
 
 
 
-
 .grillaHistoria{
     
     display: grid;
@@ -1013,7 +928,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
 
 
 
@@ -1038,7 +952,6 @@ body{
 
 
 
-
 .grillaParteFinal{
     display: grid;
     grid-template-areas:
@@ -1049,7 +962,6 @@ body{
     
 
 }
-
 
 
 
@@ -1066,12 +978,10 @@ main{
 
 
 
-
 img{
     margin: 20px 20px 20px 20px;
     border: 5px solid black;
 }
-
 
 
 .imagenServicios1{
@@ -1079,12 +989,10 @@ img{
     min-width: none;
 }
 
-
 .imagenServicios2{
     width: 450px;
     min-width: none;
 }
-
 
 .imagenHistoria{
     width: 400px;
@@ -1097,15 +1005,12 @@ img{
     min-width: none;
 }
 
-
 .tamañoMapa{
     width: 750px;
 }
 
 
-
 }
-
 
 
 
@@ -1131,7 +1036,7 @@ img{
 
 /*PRUEBA*/
 
-@media(min-width:775px){
+@media(min-width:768px){
     
     .grillaIndex{
 
@@ -1166,15 +1071,12 @@ img{
 
 
 
-
 /*3-desktop*/
 
 @media(min-width:1024px) {
 
     
-    html{
-        font-size: 62.5%;
-    }
+  
     
     body{
         text-align: left;
@@ -1195,12 +1097,10 @@ img{
     
      
 
-
      .posicionmenu{
         display: flex;
         justify-content: end;
      }
-
 
 
 
@@ -1215,7 +1115,6 @@ img{
     nav ul li{
         display: inline-block;
     }
-
 
 
 
@@ -1235,7 +1134,6 @@ img{
     
     
     }
-
 
 
     
@@ -1319,7 +1217,6 @@ img{
     
  
 
-
     
     
     .grillaContacto{
@@ -1363,7 +1260,6 @@ img{
 
 
 
-
     
     .grillaExperiencias{
         
@@ -1385,7 +1281,6 @@ img{
     .grillaExperiencias2{
         text-align: left;
     } 
-
 
     
 
@@ -1454,6 +1349,4 @@ img{
     
 
 }
-
-
 
