@@ -10,53 +10,13 @@ html {
   /*LETRA COMO PRIMERA VEZ*/
 }
 
-<<<<<<< HEAD
-.linkLlamar {
-  color: red;
-=======
 /*operaciones*/
 .linkLlamar {
   color: rgb(136, 8, 8);
->>>>>>> 68f5d36
   width: 300px;
   height: 50px;
 }
 
-<<<<<<< HEAD
-h2 {
-  color: rgb(51, 229, 170);
-}
-
-h2 {
-  border: 2px dashed rgb(208, 40, 40);
-}
-
-/*bucle*/
-.bucle-1 {
-  background-color: rgb(48, 163, 163);
-  color: aqua;
-  width: 100px;
-}
-
-.bucle-2 {
-  background-color: rgb(48, 163, 163);
-  color: aqua;
-  width: 200px;
-}
-
-.bucle-3 {
-  background-color: rgb(48, 163, 163);
-  color: aqua;
-  width: 300px;
-}
-
-.bucle-4 {
-  background-color: rgb(48, 163, 163);
-  color: aqua;
-  width: 400px;
-}
-
-=======
 /*condicionales*/
 h2 {
   color: aqua;
@@ -131,7 +91,7 @@ h2 {
   background-color: #b89f24;
 }
 
-/*Extend*/
+/*extend*/
 .redSocial, .redsocial--mark, .redsocial--nueva, .redsocial--social {
   border: 2px solid rgb(36, 32, 32);
   background-color: rgb(71, 120, 181);
@@ -179,7 +139,6 @@ h2 {
   color: rgb(136, 8, 8);
   padding: 5px 20px 5px 20px;
 }
->>>>>>> 68f5d36
 
 /*1-mobile-smartphone*/
 @media (min-width: 0px) {
