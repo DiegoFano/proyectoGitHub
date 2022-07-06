@@ -429,16 +429,6 @@ body{
  
 
 
-.botonesServicios{
-  
-    position: relative;
-    left: 0px;
-    bottom: 0px;
-    
-
-}
-
-
 
 
 
@@ -589,7 +579,7 @@ h1{
 h2{
     font-family: 'Open Sans', sans-serif;
     font-size: 240%;
-    
+    color: aliceblue;
     padding: 10px 20px 5px 20px;
 }
 
@@ -655,15 +645,56 @@ img{
 }
 
 
+
+.imgIndex{
+    width: 535px;
+    height: 380px;
+
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(0.5); /* Microsoft Edge and Firefox 35+ */
+
+}
+
+
+
+
+
+
+
+  .imagenServicios1 {
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  }
+
+
+
+  
+  /* Disable grayscale on hover */
+  .imagenServicios1:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+  }
+
+
+
+
+
+
 .imagenServicios1{
-    width: 450px;
+    width: 250px;
+    height: 150px;
     min-width: none;
 }
 
 .imagenServicios2{
     width: 450px;
+    height: 300px;
     min-width: none;
 }
+
+
 
 .imagenHistoria{
     width: 400px;
@@ -716,6 +747,16 @@ a:hover{
     background: rgb(136, 8, 8);
 }
 
+.columnaslogo:hover{
+    background: none;
+}
+
+
+.botonesServicios:hover {
+    background: none;
+    
+  }
+  
 
 }
 
@@ -985,14 +1026,17 @@ img{
 
 
 .imagenServicios1{
-    width: 450px;
+    width: 250px;
+    height: 150px;
     min-width: none;
 }
 
 .imagenServicios2{
     width: 450px;
+    height: 300px;
     min-width: none;
 }
+
 
 .imagenHistoria{
     width: 400px;
@@ -1317,17 +1361,18 @@ img{
     }
     
     
-    
     .imagenServicios1{
-        width: 450px;
+        width: 250px;
+        height: 150px;
         min-width: none;
     }
-    
     
     .imagenServicios2{
         width: 450px;
+        height: 300px;
         min-width: none;
     }
+    
     
     
     .imagenHistoria{
