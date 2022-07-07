@@ -17,28 +17,3 @@
 
 
 
-
-/*mapas*/
-
-
-$redes: ( 
-       facebook:#a4b8e3,
-       instagram:#b89f24,
-       
-);
-@each $red, $color in $redes {
-    .btn--#{$red}{
-        background-color: $color;
-        color: aliceblue;
-        font-size: 140%;
-        margin-left: 20px;
-       
-        
-    }
-}
-
-
-
-
-
-

@@ -21,23 +21,8 @@ html {
 /*operaciones*/
 .linkLlamar {
   color: aliceblue;
-  width: 150px;
-  height: -50px;
-}
-
-/*mapas*/
-.btn--facebook {
-  background-color: #a4b8e3;
-  color: aliceblue;
-  font-size: 140%;
-  margin-left: 20px;
-}
-
-.btn--instagram {
-  background-color: #b89f24;
-  color: aliceblue;
-  font-size: 140%;
-  margin-left: 20px;
+  width: 125px;
+  height: -66.6666666667px;
 }
 
 #grillaIndex1 h1 {
@@ -56,6 +41,14 @@ html {
   font-size: 150%;
   color: aliceblue;
   padding: 5px 20px 5px 20px;
+}
+
+#grillaIndex2 h5 {
+  background-color: #1E1C1C;
+  margin-bottom: 0px;
+}
+#grillaIndex2 p {
+  background-color: #1E1C1C;
 }
 
 /*1-mobile-smartphone*/
@@ -181,7 +174,7 @@ html {
 
   #pag5 {
     display: grid;
-    grid-template-areas: "pag51" "pag52" "pag53" "pag54";
+    grid-template-areas: "pag51" "pag52" "pag53" "pag54" "pag55" "pag56";
   }
 
   #pag51 {
@@ -202,12 +195,20 @@ html {
     grid-area: pag54;
   }
 
+  #pag55 {
+    grid-area: pag55;
+  }
+
+  #pag56 {
+    grid-area: pag56;
+  }
+
   .grillaMenu {
     height: 124px;
   }
 
   .colormenu {
-    background-color: black;
+    background-color: #1E1C1C;
     margin: 0px;
     padding: 0px;
   }
@@ -279,12 +280,12 @@ html {
   }
 
   footer {
-    background-color: black;
+    background-color: #1E1C1C;
     padding: 20px 0px 0px 0px;
   }
 
   .grillaFooter {
-    background-color: black;
+    background-color: #1E1C1C;
     display: grid;
     grid-template-areas: "grillaFooter2 grillaFooter3";
     height: 360px;
@@ -313,6 +314,7 @@ html {
   }
 
   .grillaServicios1 {
+    padding: 10px 0px 10px 0px;
     background-color: rgb(76, 150, 150);
     display: grid;
     text-align: center;
@@ -341,7 +343,7 @@ html {
     background-color: rgb(100, 105, 105);
     display: grid;
     grid-template-areas: "grillaServicios21" "grillaServicios22" "grillaServicios31" "grillaServicios32" "grillaServicios41" "grillaServicios42";
-    height: 1500px;
+    height: 1650px;
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -350,6 +352,10 @@ html {
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
+    padding: 20px 0px 20px 0px;
+  }
+  .grillaServicios234 p {
+    display: none;
   }
 
   .grillaServicios21 {
@@ -403,7 +409,7 @@ html {
     background-color: rgb(100, 105, 105);
     display: grid;
     grid-template-areas: "grillaHistoria1" "grillaHistoria2";
-    height: 600px;
+    height: 620px;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     padding: 20px 0px 20px 0px;
@@ -422,11 +428,11 @@ html {
     text-align: center;
   }
 
-  .grillaExperiencias {
+  .grillaExperiencias12 {
     background-color: rgb(100, 105, 105);
     display: grid;
     grid-template-areas: "grillaExperiencias1" "grillaExperiencias2";
-    height: 625px;
+    height: 600px;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     padding: 20px 0px 20px 0px;
@@ -442,6 +448,41 @@ html {
 
   .grillaExperiencias2 {
     grid-area: grillaExperiencias2;
+    text-align: center;
+  }
+
+  .sectionTestimonios {
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(76, 150, 150);
+    /*SI TIENE, ES EL TITULO*/
+    text-align: center;
+  }
+
+  .grillaExperiencias345 {
+    background-color: rgb(49, 65, 65);
+    display: grid;
+    grid-template-areas: "grillaExperiencias3" "grillaExperiencias4" "grillaExperiencias5";
+    height: 800px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grillaExperiencias3 {
+    text-align: center;
+    align-items: center;
+    grid-area: grillaExperiencias3;
+  }
+
+  .grillaExperiencias4 {
+    grid-area: grillaExperiencias4;
+    text-align: center;
+  }
+
+  .grillaExperiencias5 {
+    grid-area: grillaExperiencias5;
     text-align: center;
   }
 
@@ -531,17 +572,12 @@ html {
 
   img {
     margin: 20px 20px 20px 20px;
-    border: 5px solid black;
+    border: 5px solid #1E1C1C;
   }
 
   .imgIndex {
     width: 535px;
     height: 380px;
-    filter: gray;
-    /* IE6-9 */
-    /* Google Chrome, Safari 6+ & Opera 15+ */
-    filter: grayscale(0.5);
-    /* Microsoft Edge and Firefox 35+ */
   }
 
   .imagenServicios1 {
@@ -577,6 +613,12 @@ html {
 
   .imagenExperiencias {
     width: 400px;
+    min-width: none;
+  }
+
+  .imagenTestimonios {
+    width: 90px;
+    height: 90px;
     min-width: none;
   }
 
@@ -710,7 +752,10 @@ html {
     padding: 30px 0px 30px 0px;
     justify-content: left;
     align-items: left;
-    text-align: center;
+    text-align: left;
+  }
+  .grillaServicios234 p {
+    display: flex;
   }
 
   .grillaServicios21 {
@@ -762,7 +807,7 @@ html {
     flex-direction: column;
   }
 
-  .grillaExperiencias {
+  .grillaExperiencias12 {
     display: grid;
     grid-template-areas: "grillaExperiencias1" "grillaExperiencias2";
     height: 550px;
@@ -771,6 +816,17 @@ html {
     padding: 20px 0px 20px 0px;
     display: flex;
     flex-direction: column;
+  }
+
+  .grillaExperiencias345 {
+    display: grid;
+    grid-template-areas: "grillaExperiencias3 grillaExperiencias4 grillaExperiencias5";
+    height: 390px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
   }
 
   .grillaParteFinal {
@@ -789,7 +845,6 @@ html {
 
   img {
     margin: 20px 20px 20px 20px;
-    border: 5px solid black;
   }
 
   .imagenServicios1 {
@@ -961,10 +1016,10 @@ html {
     text-align: left;
   }
 
-  .grillaExperiencias {
+  .grillaExperiencias12 {
     display: grid;
     grid-template-areas: "grillaExperiencias1 grillaExperiencias2";
-    height: 370px;
+    height: 340px;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr;
     padding: 20px 0px 20px 0px;
@@ -976,6 +1031,27 @@ html {
 
   .grillaExperiencias2 {
     text-align: left;
+  }
+
+  .grillaExperiencias345 {
+    display: grid;
+    grid-template-areas: "grillaExperiencias3 grillaExperiencias4 grillaExperiencias5";
+    height: 370px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .grillaExperiencias3 {
+    text-align: center;
+  }
+
+  .grillaExperiencias4 {
+    text-align: center;
+  }
+
+  .grillaExperiencias5 {
+    text-align: center;
   }
 
   .grillaParteFinal {
@@ -994,7 +1070,6 @@ html {
 
   img {
     margin: 20px 20px 20px 20px;
-    border: 5px solid black;
   }
 
   .imagenServicios1 {
@@ -1016,7 +1091,8 @@ html {
   }
 
   .imagenExperiencias {
-    width: 450px;
+    width: 400px;
+    height: 250px;
     min-width: none;
   }
 

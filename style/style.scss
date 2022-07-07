@@ -159,7 +159,9 @@ body{
       "pag51"
       "pag52"
       "pag53"
-      "pag54";
+      "pag54"
+      "pag55"
+      "pag56";
  }
  
  #pag51{
@@ -177,6 +179,12 @@ body{
     grid-area: pag54;
 }
 
+#pag55{
+    grid-area: pag55;
+}
+#pag56{
+    grid-area: pag56;
+}
 
 
 
@@ -190,7 +198,7 @@ body{
  }
 
  .colormenu{
-    background-color: black;
+    background-color: #1E1C1C;
     margin: 0px;
     padding: 0px;
 
@@ -292,12 +300,12 @@ body{
 
  
  footer{
-    background-color: black;
+    background-color: #1E1C1C;
     padding: 20px 0px 0px 0px;
 }
 
  .grillaFooter{
-    background-color: black;
+    background-color: #1E1C1C;
     display: grid;
     grid-template-areas:
       "grillaFooter2 grillaFooter3";
@@ -340,7 +348,7 @@ body{
 }
 
 .grillaServicios1{
-    
+    padding: 10px 0px 10px 0px;
     background-color: rgb(76, 150, 150);
     display: grid;
     text-align: center;
@@ -385,7 +393,7 @@ body{
       "grillaServicios41" 
       "grillaServicios42";
 
-    height: 1500px;
+    height: 1650px;
     grid-template-rows: 1fr 1fr 1fr; 
     grid-template-columns: 1fr 1fr;
 
@@ -395,6 +403,11 @@ body{
     flex-direction: column;
     justify-content: space-between;
     text-align: center; 
+    padding: 20px 0px 20px 0px;
+
+    p{
+        display: none;
+    }
      
     
 }
@@ -472,7 +485,7 @@ body{
       "grillaHistoria1"
       "grillaHistoria2";
 
-    height: 600px;
+    height: 620px;
     grid-template-rows: 1fr; 
     grid-template-columns: 1fr 1fr;
     padding: 20px 0px 20px 0px;
@@ -497,7 +510,7 @@ body{
 
 
 
-.grillaExperiencias{
+.grillaExperiencias12{
     
     background-color: rgb(100, 105, 105);
     display: grid;
@@ -505,7 +518,7 @@ body{
       "grillaExperiencias1"
       "grillaExperiencias2";
 
-    height: 625px;
+    height: 600px;
     grid-template-rows: 1fr; 
     grid-template-columns: 1fr 1fr;
     padding: 20px 0px 20px 0px;
@@ -525,6 +538,47 @@ body{
 
 }
 
+.sectionTestimonios{
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(76, 150, 150);
+    /*SI TIENE, ES EL TITULO*/
+    text-align: center;
+}
+
+
+.grillaExperiencias345{
+    background-color: rgb(49, 65, 65);
+    display: grid;
+    grid-template-areas:
+      "grillaExperiencias3"
+      "grillaExperiencias4"
+      "grillaExperiencias5";
+
+    height: 800px;
+    grid-template-rows: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.grillaExperiencias3{
+    text-align: center;
+    align-items: center;
+    grid-area: grillaExperiencias3;
+}
+
+.grillaExperiencias4{
+    grid-area: grillaExperiencias4;
+    text-align: center;
+
+}
+
+.grillaExperiencias5{
+    grid-area: grillaExperiencias5;
+    text-align: center;
+
+}
 
 
 
@@ -641,7 +695,7 @@ p{
 
 img{
     margin: 20px 20px 20px 20px;
-    border: 5px solid black;
+    border: 5px solid #1E1C1C;
 }
 
 
@@ -649,11 +703,6 @@ img{
 .imgIndex{
     width: 535px;
     height: 380px;
-
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
-    filter: grayscale(0.5); /* Microsoft Edge and Firefox 35+ */
-
 }
 
 
@@ -706,6 +755,16 @@ img{
     width: 400px;
     min-width: none;
 }
+
+
+
+.imagenTestimonios{
+    width: 90px;
+    height: 90px;
+    min-width: none;
+}
+
+
 
 form{
     padding: 20px 20px 0px 20px;
@@ -900,7 +959,12 @@ body{
 
     justify-content: left;
     align-items: left; 
-    text-align: center;
+    text-align: left;
+
+    p{
+        display: flex;
+    }
+     
      
     
 }
@@ -974,7 +1038,7 @@ body{
 
 
 
-.grillaExperiencias{
+.grillaExperiencias12{
    
     display: grid;
     grid-template-areas:
@@ -987,6 +1051,19 @@ body{
     padding: 20px 0px 20px 0px;
     display: flex;
     flex-direction: column;
+}
+
+.grillaExperiencias345{
+
+    display: grid;
+    grid-template-areas:
+      "grillaExperiencias3 grillaExperiencias4 grillaExperiencias5";
+    height: 390px;
+    grid-template-rows: 1fr; 
+    grid-template-columns: 1fr  1fr 1fr;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
 }
 
 
@@ -1021,7 +1098,7 @@ main{
 
 img{
     margin: 20px 20px 20px 20px;
-    border: 5px solid black;
+    
 }
 
 
@@ -1305,13 +1382,13 @@ img{
 
 
     
-    .grillaExperiencias{
+    .grillaExperiencias12{
         
         display: grid;
         grid-template-areas:
           "grillaExperiencias1 grillaExperiencias2";
     
-        height: 370px;
+        height: 340px;
         grid-template-rows: 1fr; 
         grid-template-columns: 1fr 1fr;
         padding: 20px 0px 20px 0px;
@@ -1325,6 +1402,36 @@ img{
     .grillaExperiencias2{
         text-align: left;
     } 
+
+
+
+    .grillaExperiencias345{
+
+        display: grid;
+        grid-template-areas:
+          "grillaExperiencias3 grillaExperiencias4 grillaExperiencias5";
+        height: 370px;
+        grid-template-rows: 1fr; 
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 20px 0px 20px 0px;
+    
+    }
+
+    .grillaExperiencias3{
+        text-align: center;
+    
+    }
+    
+    .grillaExperiencias4{
+        text-align: center;
+    } 
+
+    .grillaExperiencias5{
+        text-align: center;
+    } 
+
+
+    
 
     
 
@@ -1357,7 +1464,7 @@ img{
     
     img{
         margin: 20px 20px 20px 20px;
-        border: 5px solid black;
+        
     }
     
     
@@ -1382,7 +1489,8 @@ img{
     }
     
     .imagenExperiencias{
-        width: 450px;
+        width: 400px;
+        height: 250px;
         min-width: none;
     }
     
