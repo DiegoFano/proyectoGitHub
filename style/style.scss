@@ -237,6 +237,7 @@ body{
     color: rgb(76, 150, 150);
     font-size: 180%;
     margin: 0px 10px 0px 10px;
+    padding: 20px 20px 10px 20px;
 
  }
 
@@ -277,7 +278,7 @@ body{
     grid-template-areas:
       "grillaIndex1 grillaIndex2";
 
-    height: 750px;
+    height: 700px;
     grid-template-rows: 1fr; 
     grid-template-columns: 1fr 1fr;
     
@@ -292,6 +293,10 @@ body{
 
 .grillaIndex2{
     grid-area: grillaIndex2;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -342,10 +347,11 @@ body{
 
 .sectionServicios{
     padding: 20px 0px 20px 0px;
-    background-color: rgb(100, 105, 105);
+    background-color: rgb(76, 150, 150);
     /*SI TIENE, ES EL TITULO*/
     text-align: center;
 }
+
 
 .grillaServicios1{
     padding: 10px 0px 10px 0px;
@@ -360,7 +366,7 @@ body{
     height: 800px;
     grid-template-rows: 1fr 1fr 1fr; 
     grid-template-columns: 1fr ;
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -393,7 +399,7 @@ body{
       "grillaServicios41" 
       "grillaServicios42";
 
-    height: 1650px;
+    height: 1300px;
     grid-template-rows: 1fr 1fr 1fr; 
     grid-template-columns: 1fr 1fr;
 
@@ -401,7 +407,7 @@ body{
     align-items: center; 
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     text-align: center; 
     padding: 20px 0px 20px 0px;
 
@@ -453,7 +459,7 @@ body{
     grid-template-areas:
       "grillaContacto1 grillaContacto2";
 
-    height: 340px;
+    height: 400px;
     grid-template-rows: 1fr; 
     grid-template-columns: 1fr 1fr;
 
@@ -485,7 +491,7 @@ body{
       "grillaHistoria1"
       "grillaHistoria2";
 
-    height: 620px;
+    height: 660px;
     grid-template-rows: 1fr; 
     grid-template-columns: 1fr 1fr;
     padding: 20px 0px 20px 0px;
@@ -503,6 +509,8 @@ body{
 .grillaHistoria2{
     grid-area: grillaHistoria2;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
 
 }
 
@@ -518,7 +526,7 @@ body{
       "grillaExperiencias1"
       "grillaExperiencias2";
 
-    height: 600px;
+    height: 590px;
     grid-template-rows: 1fr; 
     grid-template-columns: 1fr 1fr;
     padding: 20px 0px 20px 0px;
@@ -535,6 +543,8 @@ body{
 .grillaExperiencias2{
     grid-area: grillaExperiencias2;
     text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
 
 }
 
@@ -554,12 +564,13 @@ body{
       "grillaExperiencias4"
       "grillaExperiencias5";
 
-    height: 800px;
+    height: 900px;
     grid-template-rows: 1fr; 
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px 0px 20px 0px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .grillaExperiencias3{
@@ -622,90 +633,9 @@ main{
 
 
 
-
-
-h1{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 360%;
-    color: aliceblue;
-    padding: 20px 20px 10px 20px;
-}
-h2{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 240%;
-    color: aliceblue;
-    padding: 10px 20px 5px 20px;
-}
-
-h3{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 200%;
-    color: rgb(76, 150, 150);
-    padding: 10px 20px 10px 20px;
-}
-
-h5{
-    font-family: 'Lato', sans-serif;
-    font-size: 200%;
-    color: aliceblue;
-    padding: 10px 20px 10px 20px;
-}
-
-p{
-    font-family: 'Lato', sans-serif;
-    font-size: 150%;
-    color: aliceblue;
-    padding: 5px 20px 5px 20px;
-}
-
-
-.linkLlamar{
-    position: relative;
-    left: 20px;
-    top: 0px;
-    
-    background-color: rgb(136, 8, 8);
-    color: aliceblue;
-    font-size: 150%;
-    font-family: 'Lato', sans-serif;
-    
-}
-
-.linkLlamar:hover{
-    transform: scale(120.5%);
-}
-
-
-
-
-.linkFooter{
-    position: relative;
-    left: 20px;
-    top: 0px;
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 150%;
-    font-family: 'Lato', sans-serif;
-
-}
-
-
-
-
-
-img{
-    margin: 20px 20px 20px 20px;
-    border: 5px solid #1E1C1C;
-}
-
-
-
 .imgIndex{
-    width: 535px;
-    height: 380px;
+    width: 89%;
 }
-
-
 
 
 
@@ -738,21 +668,20 @@ img{
 }
 
 .imagenServicios2{
-    width: 450px;
-    height: 300px;
+    width: 250px;
     min-width: none;
 }
 
 
 
 .imagenHistoria{
-    width: 400px;
+    width: 89%;
     min-width: none;
     margin: 15px 20px 10px 20px;
 }
 
 .imagenExperiencias{
-    width: 400px;
+    width: 89%;
     min-width: none;
 }
 
@@ -766,28 +695,21 @@ img{
 
 
 
-form{
-    padding: 20px 20px 0px 20px;
-    font-size: 150%;
-}
-
-.formContacto{
-    color: aliceblue;
-    font-family: 'Lato', sans-serif;
-}
-.googleMaps{
-    background-color: rgb(49, 65, 65);
-    color: black;
-    padding: 20px 20px 20px 20px;
-}
-.letraGoogleMaps{
-    padding: 0px 0px 0px 0px;
-
-}
 
 .tamañoMapa{
-    width: 600px;
+    width: 89%;
 }
+
+
+
+
+
+.linkLlamar{
+    left: 0px;
+}
+
+
+
 
 /*enlaces no visitados*/
 a:link{
@@ -829,7 +751,61 @@ a:hover{
 
 
 
-/*2-tablet{*/
+
+/*1.5- intermedio mobile-tablet*/
+@media(min-width:500px){
+
+.sectionServicios{
+    background-color: rgb(100, 105, 105);
+}
+
+
+.grillaServicios1{
+        display: flex;
+    }
+
+.grillaServicios234{
+    height: 1700px;
+}
+
+
+
+
+.imgIndex{
+    width: 400px;
+}
+.carousel{
+    width: 450px;
+}
+.imagenServicios2{
+    width: 450px;
+}
+.imagenHistoria{
+    width: 450px;
+}
+.imagenExperiencias{
+    width: 450px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*2-tablet*/
 
 @media(min-width:768px){
     
@@ -881,19 +857,43 @@ body{
 
 
 
- .grillaIndex{
-  
+
+.grillaIndex{
+
     display: grid;
     grid-template-areas:
       "grillaIndex1 grillaIndex2";
 
-    height: 750px;
+    height: 550px;
     grid-template-rows: 1fr; 
     grid-template-columns: 1fr 1fr;
     
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+
+
 }
+
+.grillaIndex1{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.grillaIndex2{
+    margin-left: 0px;
+    padding-right: 10px;
+
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -1096,10 +1096,15 @@ main{
 
 
 
-img{
-    margin: 20px 20px 20px 20px;
-    
+.imgIndex{
+    width: 490px;
 }
+
+.carousel{
+    width: 525px;
+}
+
+
 
 
 .imagenServicios1{
@@ -1131,51 +1136,18 @@ img{
 }
 
 
+
+.linkLlamar{
+    left: 20px;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*PRUEBA*/
-
-@media(min-width:768px){
-    
-    .grillaIndex{
-
-        display: grid;
-        grid-template-areas:
-          "grillaIndex1 grillaIndex2";
-    
-        height: 450px;
-        grid-template-rows: 1fr; 
-        grid-template-columns: 1fr 1fr;
-        
-        display: flex;
-        flex-direction: column;
-    
-    
-    }
-
 }
+
+
+
 
 
 
@@ -1240,6 +1212,8 @@ img{
 
 
 
+
+
     .grillaIndex{
       
         display: grid;
@@ -1251,10 +1225,29 @@ img{
         grid-template-columns: 1fr 1fr;
         
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     
     
     }
+
+
+    .grillaIndex1{
+        margin-top: 0px;
+    }
+
+    .grillaIndex2{
+        padding-right: 10px;
+        margin-top: 0px;
+    }
+
+
+
+
+
+
+
+
+
 
 
     
@@ -1458,14 +1451,23 @@ img{
     
     
 
+
+
+
+
     
     
-    
-    
-    img{
-        margin: 20px 20px 20px 20px;
-        
+    .imgIndex{
+        width: 585px;
     }
+
+    .carousel{
+        width: 618.75px;
+    }
+
+
+    
+
     
     
     .imagenServicios1{

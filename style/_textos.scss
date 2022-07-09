@@ -1,5 +1,120 @@
 
 
+
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 360%;
+    color: aliceblue;
+    padding: 20px 20px 10px 20px;
+}
+h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 240%;
+    color: aliceblue;
+    padding: 10px 20px 5px 20px;
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200%;
+    color: rgb(76, 150, 150);
+    padding: 10px 20px 10px 20px;
+}
+
+h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 200%;
+    color: aliceblue;
+    padding: 10px 20px 10px 20px;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 150%;
+    color: aliceblue;
+    padding: 5px 20px 5px 20px;
+}
+
+
+
+
+
+
+img{
+    margin: 20px 20px 20px 20px;
+    border: 5px solid #1E1C1C;
+}
+
+
+
+.linkLlamar{
+    position: relative;
+    left: 20px;
+    top: 0px;
+    
+    background-color: rgb(136, 8, 8);
+    color: aliceblue;
+    font-size: 150%;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.linkLlamar:hover{
+    transform: scale(120.5%);
+}
+
+
+
+
+.linkFooter{
+    position: relative;
+    left: 20px;
+    top: 0px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 150%;
+    font-family: 'Lato', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+form{
+    padding: 20px 20px 0px 20px;
+    font-size: 150%;
+}
+
+.formContacto{
+    color: aliceblue;
+    font-family: 'Lato', sans-serif;
+}
+.googleMaps{
+    background-color: rgb(49, 65, 65);
+    color: black;
+    padding: 20px 20px 20px 20px;
+}
+.letraGoogleMaps{
+    padding: 0px 0px 0px 0px;
+
+}
+
+
+
+
+Z
+
+
+
+
+
+
+
 #grillaIndex1{
     h1{
         font-family: 'Open Sans', sans-serif;
@@ -29,12 +144,12 @@
 #grillaIndex2{
     
     h5{
-        background-color: #1E1C1C;
+        background-color: rgb(100, 105, 105);
         margin-bottom: 0px;
     }
 
     p{
-        background-color: #1E1C1C;
+        background-color: rgb(100, 105, 105);
         
     }
 }
