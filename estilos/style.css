@@ -109,29 +109,29 @@ form {
   padding: 0px 0px 0px 0px;
 }
 
-Z #grillaIndex1 h1 {
+Z .grillaIndex1 h1 {
   font-family: "Open Sans", sans-serif;
   font-size: 360%;
   color: aliceblue;
   padding: 20px 20px 10px 20px;
 }
-Z #grillaIndex1 h2 {
+Z .grillaIndex1 h2 {
   font-family: "Open Sans", sans-serif;
   font-size: 240%;
   padding: 10px 20px 5px 20px;
 }
-Z #grillaIndex1 p {
+Z .grillaIndex1 p {
   font-family: "Lato", sans-serif;
   font-size: 150%;
   color: aliceblue;
   padding: 5px 20px 5px 20px;
 }
 
-#grillaIndex2 h5 {
+.grillaIndex2 h5 {
   background-color: rgb(100, 105, 105);
   margin-bottom: 0px;
 }
-#grillaIndex2 p {
+.grillaIndex2 p {
   background-color: rgb(100, 105, 105);
 }
 
